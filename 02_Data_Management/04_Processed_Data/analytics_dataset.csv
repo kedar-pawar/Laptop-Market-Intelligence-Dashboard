@@ -1,0 +1,1001 @@
+Company,laptop_type,screen_size_inch,display_resolution_width,display_resolution_height,panel_type,is_touchscreen,resolution_class,cpu_brand,cpu_family,cpu_generation,clock_speed_ghz,cpu_tier,gpu_brand,ram_gb,ssd_gb,hdd_gb,flash_gb,hybrid_gb,total_storage_gb,weight_kg,weight_class,price_band,Price,is_price_outlier
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.37,Medium,Mid-Range,71378.6832,No
+APPLE,Ultrabook,13.3,1440,900,Standard,No,HD+,Intel,i5,NULL,1.00,Upper-Mid,Intel,8,0,0,128,0,128,1.34,Medium,Mid-Range,47895.523199999996,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.86,Medium,Budget,30636,No
+APPLE,Ultrabook,15.4,2880,1800,IPS,No,"Quad HD+",Intel,i7,NULL,2.00,High,AMD,16,512,0,0,0,512,1.83,Medium,Premium,135195.33599999998,Yes
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,3.00,Upper-Mid,Intel,8,256,0,0,0,256,1.37,Medium,Premium,96095.80799999999,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,0,500,0,0,500,2.10,Medium,Budget,21312,No
+APPLE,Ultrabook,15.4,2880,1800,IPS,No,"Quad HD+",Intel,i7,NULL,2.00,High,Intel,16,0,0,256,0,256,2.04,Medium,Premium,114017.6016,No
+APPLE,Ultrabook,13.3,1440,900,Standard,No,HD+,Intel,i5,NULL,1.00,Upper-Mid,Intel,8,0,0,256,0,256,1.34,Medium,Mid-Range,61735.536,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,512,0,0,0,512,1.30,Medium,Mid-Range,79653.59999999999,No
+ACER,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,41025.6,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.86,Medium,Budget,20986.992,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.86,Medium,Budget,18381.0672,No
+APPLE,Ultrabook,15.4,2880,1800,IPS,No,"Quad HD+",Intel,i7,NULL,2.00,High,AMD,16,256,0,0,0,256,1.83,Medium,Premium,130001.6016,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,256,0,0,0,256,2.20,Heavy,Budget,26581.391999999996,No
+APPLE,Ultrabook,12,2304,1440,IPS,No,"Quad HD",Intel,"Core M",NULL,1.00,Mid,Intel,8,256,0,0,0,256,0.92,Light,Mid-Range,67260.672,No
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.37,Medium,Premium,80908.344,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,256,0,0,0,256,2.20,Heavy,Budget,39693.6,No
+APPLE,Ultrabook,15.4,2880,1800,IPS,No,"Quad HD+",Intel,i7,NULL,2.00,High,AMD,16,512,0,0,0,512,1.83,Medium,Premium,152274.24,Yes
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,26586.719999999998,No
+DELL,Ultrabook,13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,128,0,0,0,128,1.22,Light,Mid-Range,52161.119999999995,No
+ASUS,Netbook,11.6,1366,768,Standard,No,HD,Intel,Atom,NULL,1.00,Entry,Intel,2,0,0,32,0,32,0.98,Light,Budget,10224.432,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,53226.72,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,AMD,E-Series,NULL,1.00,Entry,AMD,4,0,500,0,0,500,1.86,Medium,Budget,13746.24,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.62,Medium,Mid-Range,43636.32,No
+HP,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.91,Medium,Budget,35111.52,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.30,Heavy,Budget,22305.139199999998,No
+APPLE,Ultrabook,13.3,1440,900,Standard,No,HD+,Intel,i5,NULL,1.00,Upper-Mid,Intel,8,0,0,128,0,128,1.35,Medium,Mid-Range,58554.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,0,0,0,256,2.20,Heavy,Mid-Range,42624,No
+DELL,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.88,Medium,Mid-Range,69157.44,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.50,Heavy,Mid-Range,47738.88,No
+CHUWI,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,0,0,64,0,64,1.89,Medium,Budget,13053.067200000001,No
+ASUS,Notebook,14,1366,768,Standard,No,HD,AMD,E-Series,NULL,1.00,Entry,AMD,2,0,0,32,0,32,1.65,Medium,Budget,10602.72,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",AMD,A6-Series,NULL,2.00,Entry,AMD,4,0,500,0,0,500,2.71,Heavy,Budget,23389.92,No
+DELL,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,8,1.00,High,Intel,16,512,0,0,0,512,1.20,Light,Premium,99580.31999999999,No
+APPLE,Ultrabook,13.3,1440,900,Standard,No,HD+,Intel,i5,NULL,1.00,Upper-Mid,Intel,8,0,0,256,0,256,1.35,Medium,Mid-Range,53173.439999999995,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,64,0,64,1.44,Medium,Budget,13266.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,19553.76,No
+DELL,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,52161.119999999995,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,1.86,Medium,Budget,26037.403199999997,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.10,Medium,Mid-Range,46833.119999999995,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.00,Medium,Budget,20725.92,No
+DELL,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.65,Heavy,Mid-Range,79866.72,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.30,Heavy,Budget,27864.9072,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,256,0,0,0,256,2.20,Heavy,Budget,36336.96,No
+DELL,"2 in 1 Convertible",17.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,12,0,1024,0,0,1024,2.77,Heavy,Mid-Range,53226.72,No
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.37,Medium,Mid-Range,75604.31999999999,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.20,Heavy,Budget,19660.32,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",AMD,Ryzen,1,3.00,High,AMD,8,256,1024,0,0,1280,3.20,Heavy,Mid-Range,69210.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,4,256,0,0,0,256,2.30,Heavy,Budget,34045.92,No
+ASUS,Notebook,17.3,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,NVIDIA,4,0,1024,0,0,1024,2.80,Heavy,Budget,24828.48,No
+LENOVO,"2 in 1 Convertible",10.1,1920,1200,IPS,Yes,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,0,0,64,0,64,0.69,Light,Budget,16996.32,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Mid-Range,44808.479999999996,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A6-Series,NULL,2.00,Entry,AMD,4,256,0,0,0,256,1.86,Medium,Budget,21231.5472,No
+HP,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.49,Medium,Mid-Range,58767.84,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,2.40,Heavy,Budget,20459.52,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,2.13,Medium,Mid-Range,40908.384,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,1.91,Medium,Budget,23389.92,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,2.00,Medium,Budget,31232.203200000004,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,2048,0,0,2304,2.43,Heavy,Premium,130482.72,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,256,0,0,0,256,2.00,Medium,Budget,22111.2,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,16,256,2048,0,0,2304,2.80,Heavy,Mid-Range,69210.72,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.70,Medium,Mid-Range,46833.119999999995,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,8,256,0,0,0,256,1.70,Medium,Budget,31914.719999999998,No
+ASUS,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.40,Medium,Mid-Range,50136.479999999996,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.86,Medium,Budget,36763.2,No
+ASUS,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,1.80,Medium,Premium,105654.23999999999,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,500,0,0,500,1.86,Medium,Budget,23373.4032,No
+HP,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,32,0,0,0,32,1.44,Medium,Budget,12201.119999999999,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,1.90,Medium,Budget,29250.719999999998,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,0,1024,0,0,1024,3.00,Heavy,Mid-Range,50562.72,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.25,Light,Mid-Range,58021.92,No
+DELL,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,1.40,Medium,Mid-Range,50882.4,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,2.20,Heavy,Mid-Range,46353.6,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.70,Heavy,Mid-Range,58341.6,No
+ACER,Notebook,14,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,8,0,1024,0,0,1024,2.10,Medium,Budget,20725.92,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Mid-Range,50562.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,2048,0,0,2048,2.20,Heavy,Budget,27652.32,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,128,1024,0,0,1152,2.02,Medium,Mid-Range,45554.4,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,4,0,1024,0,0,1024,2.20,Heavy,Budget,28238.399999999998,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,52054.56,No
+DELL,Ultrabook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.88,Medium,Mid-Range,58403.404800000004,No
+APPLE,Ultrabook,12,2304,1440,IPS,No,"Quad HD",Intel,i5,NULL,1.00,Upper-Mid,Intel,8,512,0,0,0,512,0.92,Light,Premium,80452.8,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.63,Medium,Mid-Range,45820.799999999996,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A6-Series,NULL,2.00,Entry,AMD,4,128,0,0,0,128,2.20,Heavy,Budget,21258.719999999998,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,0,1024,0,0,1024,2.10,Medium,Budget,21045.6,No
+DELL,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.65,Heavy,Mid-Range,71874.72,No
+HP,Ultrabook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,1.83,Medium,Budget,37242.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.96,Medium,Budget,31914.1872,No
+ASUS,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.20,Heavy,Mid-Range,77202.72,No
+DELL,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.21,Light,Premium,87858.72,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",AMD,FX,NULL,3.00,High,AMD,8,0,1024,0,0,1024,2.45,Heavy,Budget,37242.72,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,36709.92,No
+HP,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,16,512,0,0,0,512,1.49,Medium,Mid-Range,63776.159999999996,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.65,Heavy,Mid-Range,63669.6,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.25,Light,Mid-Range,55890.72,No
+ACER,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.50,Medium,Mid-Range,45128.159999999996,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,0,1024,0,0,1024,2.20,Heavy,Budget,31962.672,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,256,0,0,0,256,2.20,Heavy,Budget,25840.8,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,6,256,0,0,0,256,2.00,Medium,Budget,30742.559999999998,No
+HP,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,128,1024,0,0,1152,2.62,Heavy,Mid-Range,66546.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,256,0,0,0,256,1.91,Medium,Budget,38308.32,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,E-Series,NULL,1.00,Entry,AMD,4,0,500,0,0,500,2.10,Medium,Budget,18594.719999999998,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.20,Heavy,Budget,34472.159999999996,No
+HP,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.38,Medium,Mid-Range,59620.32,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.25,Light,Mid-Range,71395.2,No
+HP,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,6,256,0,0,0,256,1.58,Medium,Budget,35111.52,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,1.85,Medium,Budget,22105.872,No
+ASUS,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.30,Medium,Mid-Range,63563.04,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.20,Heavy,Mid-Range,69210.72,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.58,Medium,Mid-Range,78854.4,No
+ASUS,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,256,1024,0,0,1280,1.50,Medium,Mid-Range,67239.36,No
+DELL,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.23,Light,Mid-Range,73473.12,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.37,Medium,Mid-Range,74538.72,No
+HP,Notebook,14,1366,768,IPS,No,HD,Intel,i5,8,1.00,Upper-Mid,Intel,4,0,500,0,0,500,1.63,Medium,Budget,38468.159999999996,No
+DELL,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.21,Light,Premium,86793.12,No
+HP,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.26,Light,Mid-Range,74538.1872,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.63,Medium,Mid-Range,57755.52,No
+DELL,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,1024,0,0,1280,2.16,Medium,Mid-Range,60223.98239999999,No
+ASUS,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,NVIDIA,4,0,1024,0,0,1024,2.00,Medium,Budget,30049.92,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,1.70,Medium,Mid-Range,59567.04,No
+ACER,Notebook,15.6,1920,1080,IPS,Yes,"Full HD",Intel,i3,7,2.00,Mid,Intel,6,0,1024,0,0,1024,2.10,Medium,Budget,25521.12,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,2048,0,0,2304,1.80,Medium,Premium,119427.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Budget,33513.119999999995,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,512,0,0,0,512,2.50,Heavy,Mid-Range,67718.88,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,256,0,0,0,256,2.10,Medium,Budget,24029.28,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,1.86,Medium,Budget,13799.519999999999,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,0,1024,0,0,1024,1.63,Medium,Mid-Range,43263.36,No
+ASUS,Notebook,14,1366,768,Standard,No,HD,AMD,E-Series,NULL,1.00,Entry,AMD,4,64,0,0,0,64,1.65,Medium,Budget,14811.307200000001,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,16,256,2048,0,0,2304,2.80,Heavy,Mid-Range,74378.87999999999,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,2.50,Heavy,Mid-Range,49443.84,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.36,Heavy,Budget,34045.3872,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.20,Heavy,Budget,23922.719999999998,No
+ACER,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,47099.52,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,4,256,0,0,0,256,2.20,Heavy,Budget,30476.16,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,7,2.00,High,Intel,8,0,1024,0,0,1024,2.05,Medium,Budget,31861.44,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.63,Medium,Mid-Range,52640.64,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,1.90,Medium,Budget,13445.7408,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,3.00,Heavy,Mid-Range,49976.64,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.20,Heavy,Budget,26586.719999999998,No
+HP,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.32,Medium,Budget,37242.72,No
+ACER,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,4,0,1024,0,0,1024,3.00,Heavy,Budget,34898.4,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,0,0,0,256,1.75,Medium,Mid-Range,59461.5456,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.40,Heavy,Mid-Range,46300.32,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,32074.559999999998,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,AMD,A6-Series,NULL,2.00,Entry,AMD,4,256,0,0,0,256,1.86,Medium,Budget,19660.32,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.25,Light,Mid-Range,58554.72,No
+HP,Ultrabook,12.5,3840,2160,IPS,Yes,UHD,Intel,"Core M",NULL,1.00,Mid,Intel,8,512,0,0,0,512,0.97,Light,Premium,107305.92,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.00,Medium,Budget,18328.32,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.90,Heavy,Premium,108105.12,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,23816.16,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.56,Heavy,Mid-Range,66560.5728,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,0,0,1024,1024,2.62,Heavy,Mid-Range,47898.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.90,Medium,Budget,26533.44,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.80,Heavy,Premium,100699.2,No
+HP,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.48,Medium,Mid-Range,57648.96,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,6,256,0,0,0,256,1.91,Medium,Budget,32980.32,No
+LENOVO,"2 in 1 Convertible",14,1920,1080,IPS,Yes,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,256,0,0,0,256,1.74,Medium,Budget,33513.119999999995,No
+ASUS,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.10,Light,Mid-Range,70063.2,No
+DELL,"2 in 1 Convertible",15.6,1920,1080,Standard,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.56,Medium,Mid-Range,55890.72,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,23816.16,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,0,1024,0,0,1024,2.03,Medium,Budget,21471.84,No
+ACER,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,4,256,0,0,0,256,3.00,Heavy,Mid-Range,42890.4,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,0,0,0,256,2.13,Medium,Budget,38787.84,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,2.50,Heavy,Mid-Range,57489.119999999995,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,18541.44,No
+MSI,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.40,Heavy,Premium,95850.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,19367.812799999996,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.56,Heavy,Mid-Range,56502.907199999994,No
+ACER,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,3.00,Heavy,Mid-Range,45501.119999999995,No
+HP,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,0,500,0,0,500,1.49,Medium,Mid-Range,40173.119999999995,No
+HUAWEI,Ultrabook,13,2160,1440,IPS,No,"Quad HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.05,Light,Mid-Range,71874.72,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,6,0,2048,0,0,2048,2.71,Heavy,Budget,37242.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,AMD,A6-Series,NULL,2.00,Entry,AMD,4,0,500,0,0,500,2.20,Heavy,Budget,16463.52,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,500,0,0,500,2.00,Medium,Budget,26053.92,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,49177.439999999995,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,8,0,1024,0,0,1024,2.30,Heavy,Budget,24455.52,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.10,Medium,Budget,23922.719999999998,No
+MSI,Gaming,18.4,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,32,512,1024,0,0,1536,4.40,Heavy,Premium,149130.72,Yes
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,128,1024,0,0,1152,1.90,Medium,Mid-Range,43316.64,No
+HP,"2 in 1 Convertible",13.3,3840,2160,IPS,Yes,UHD,Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.29,Light,Mid-Range,79866.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,16,256,2048,0,0,2304,2.02,Medium,Mid-Range,55890.72,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.23,Light,Mid-Range,74538.72,No
+LENOVO,"2 in 1 Convertible",13.9,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,16,512,0,0,0,512,1.40,Medium,Premium,98514.72,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,2.00,Medium,Mid-Range,42251.04,No
+XIAOMI,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.95,Medium,Mid-Range,63882.72,No
+DELL,Notebook,17.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,512,0,0,0,512,2.77,Heavy,Premium,82530.72,No
+DELL,Notebook,15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.06,Medium,Premium,127712.15999999999,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.40,Heavy,Mid-Range,41505.119999999995,No
+ACER,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,NULL,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.12,Light,Mid-Range,52693.92,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,57808.799999999996,No
+LENOVO,"2 in 1 Convertible",14,2560,1440,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,16,1024,0,0,0,1024,1.42,Medium,Premium,150462.72,Yes
+VERO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.30,Medium,Budget,13852.8,No
+XIAOMI,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.30,Medium,Mid-Range,53274.67199999999,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.80,Heavy,Budget,37189.439999999995,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,0,1024,0,0,1024,1.62,Medium,Mid-Range,44701.92,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.50,Heavy,Mid-Range,48697.92,No
+RAZER,Gaming,17.3,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,32,1024,0,0,0,1024,3.49,Heavy,Premium,324954.72,Yes
+HP,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,512,0,0,0,512,1.49,Medium,Mid-Range,51095.52,No
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.35,Heavy,Mid-Range,73473.12,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,55677.6,No
+DELL,Gaming,15.6,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,2.65,Heavy,Premium,98301.59999999999,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,128,0,0,0,128,2.10,Medium,Budget,26267.039999999997,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.23,Heavy,Budget,39533.76,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,3.20,Heavy,Premium,93186.72,No
+DELL,Workstation,15.6,3840,2160,Standard,No,UHD,Intel,Xeon,NULL,3.00,High,NVIDIA,16,256,1024,0,0,1280,2.80,Heavy,Premium,162770.4,Yes
+LENOVO,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.40,Heavy,Mid-Range,74485.44,No
+DELL,Notebook,15.6,1366,768,Standard,Yes,HD,Intel,i3,7,2.00,Mid,Intel,6,0,1024,0,0,1024,2.30,Heavy,Budget,23389.92,No
+DELL,Ultrabook,13.3,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.21,Light,Premium,103842.72,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,77202.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.20,Heavy,Budget,31808.16,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.40,Heavy,Mid-Range,41505.119999999995,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.90,Heavy,Mid-Range,74964.95999999999,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,18594.719999999998,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.20,Heavy,Budget,29250.719999999998,No
+HUAWEI,Ultrabook,13,2160,1440,IPS,No,"Quad HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.05,Light,Mid-Range,79866.72,No
+DELL,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,1.40,Medium,Mid-Range,49650.566399999996,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.80,Heavy,Budget,31381.92,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,1.63,Medium,Mid-Range,54931.68,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,61218.72,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,16,512,0,0,0,512,1.62,Medium,Mid-Range,68145.12,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,0,0,0,256,2.20,Heavy,Budget,36089.208,No
+LENOVO,"2 in 1 Convertible",14,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.74,Medium,Mid-Range,47898.72,No
+TOSHIBA,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,72620.64,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.10,Medium,Mid-Range,42304.32,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.42,Heavy,Premium,130873.7952,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Mid-Range,44328.96,No
+DELL,Notebook,15.6,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,AMD,16,0,1024,0,0,1024,2.30,Heavy,Mid-Range,45768.0528,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.00,Medium,Mid-Range,40972.32,No
+ASUS,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,500,0,0,756,2.69,Heavy,Mid-Range,47472.479999999996,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,0,1024,0,0,1024,1.90,Medium,Mid-Range,67612.31999999999,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,2.37,Heavy,Budget,21258.1872,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,AMD,E-Series,NULL,1.00,Entry,AMD,4,0,500,0,0,500,2.10,Medium,Budget,17582.399999999998,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.20,Heavy,Mid-Range,79866.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,45767.52,No
+ACER,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Budget,36709.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,16,256,0,0,0,256,2.36,Heavy,Mid-Range,47898.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,20779.2,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,4,128,1024,0,0,1152,2.20,Heavy,Budget,30636,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,32,512,1024,0,0,1536,4.70,Heavy,Premium,207259.19999999998,Yes
+ACER,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,45074.88,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,8,128,0,0,0,128,2.20,Heavy,Budget,31381.92,No
+ASUS,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,128,1024,0,0,1152,2.10,Medium,Mid-Range,61005.6,No
+ASUS,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.69,Heavy,Mid-Range,47365.92,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.56,Heavy,Mid-Range,46833.119999999995,No
+LENOVO,"2 in 1 Convertible",13.9,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.38,Medium,Mid-Range,57489.119999999995,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,2048,0,0,2176,2.20,Heavy,Mid-Range,52480.799999999996,No
+HP,Notebook,15.6,1366,768,Standard,Yes,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.04,Medium,Budget,29783.52,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,3.60,Heavy,Premium,159786.72,Yes
+HP,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,0,500,0,0,500,1.49,Medium,Budget,35964,No
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,3.00,Upper-Mid,Intel,8,512,0,0,0,512,1.37,Medium,Premium,108691.2,No
+DELL,"2 in 1 Convertible",15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,0,1024,0,0,1024,2.08,Medium,Mid-Range,43636.32,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.30,Heavy,Premium,95850.72,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,0,1024,0,0,1024,1.68,Medium,Budget,24988.32,No
+LENOVO,"2 in 1 Convertible",13.9,1920,1080,IPS,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.37,Medium,Premium,98514.72,No
+ACER,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,4,256,0,0,0,256,3.00,Heavy,Budget,37402.56,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.41,Medium,Mid-Range,50562.72,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,AMD,A6-Series,NULL,2.00,Entry,AMD,8,128,0,0,0,128,1.91,Medium,Budget,23757.552,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,0,1024,0,0,1024,2.90,Heavy,Mid-Range,56423.52,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,4.14,Heavy,Premium,133146.72,No
+LENOVO,"2 in 1 Convertible",15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,512,0,0,0,512,2.00,Medium,Premium,90522.72,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,60845.759999999995,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,256,0,0,0,256,2.20,Heavy,Budget,23656.32,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,38468.159999999996,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,2.18,Medium,Budget,35004.96,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.24,Heavy,Budget,30103.199999999997,No
+DELL,"2 in 1 Convertible",15.6,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,2.67,Heavy,Mid-Range,42570.72,No
+ASUS,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,1024,0,0,0,1024,1.10,Light,Mid-Range,79866.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,24881.76,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,0,1024,0,0,1024,2.50,Heavy,Mid-Range,54239.04,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,2.05,Medium,Mid-Range,46886.4,No
+APPLE,Ultrabook,13.3,2560,1600,IPS,No,"Quad HD+",Intel,i5,NULL,2.00,Upper-Mid,Intel,8,512,0,0,0,512,1.37,Medium,Premium,104370.192,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",AMD,Ryzen,1,3.00,High,AMD,16,256,1024,0,0,1280,3.20,Heavy,Premium,82530.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,2.14,Medium,Budget,39164.5296,No
+LENOVO,"2 in 1 Convertible",14,2560,1440,Standard,Yes,"Quad HD+",Intel,i7,6,2.00,High,Intel,16,512,0,0,0,512,1.36,Medium,Premium,133146.72,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,6,2.00,High,NVIDIA,8,0,500,0,0,500,2.20,Heavy,Mid-Range,43263.36,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,7,2.00,High,Intel,12,0,1024,0,0,1024,2.30,Heavy,Budget,37992.3696,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,58554.72,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,39693.6,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.80,Heavy,Budget,26053.92,No
+LENOVO,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,0,2048,0,0,2048,2.80,Heavy,Mid-Range,45234.72,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i7,7,2.00,High,NVIDIA,6,128,1024,0,0,1152,2.80,Heavy,Mid-Range,45767.52,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.25,Heavy,Budget,22803.84,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,44169.119999999995,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,6,256,0,0,0,256,2.20,Heavy,Budget,30849.12,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,256,0,0,0,256,3.00,Heavy,Mid-Range,50669.28,No
+ACER,Notebook,15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,12,0,1024,0,0,1024,2.15,Medium,Budget,35111.52,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.95,Medium,Mid-Range,58448.159999999996,No
+ASUS,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.70,Medium,Mid-Range,52054.56,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.50,Heavy,Mid-Range,62817.119999999995,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,35112.0528,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,16,0,0,0,16,2.19,Medium,Budget,10602.72,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,3.00,Heavy,Mid-Range,63243.36,No
+HP,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i3,6,2.00,Mid,Intel,8,0,1024,0,0,1024,2.54,Heavy,Budget,26053.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.00,Medium,Premium,97449.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,2.05,Medium,Budget,39373.92,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,3.20,Heavy,Mid-Range,69210.72,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,52161.119999999995,No
+DELL,Workstation,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,3.42,Heavy,Premium,153705.3408,Yes
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,6,0,1024,0,0,1024,2.40,Heavy,Budget,26586.719999999998,No
+ASUS,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,1.63,Medium,Mid-Range,78215.04,No
+ASUS,Notebook,14,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,1.30,Medium,Budget,27119.52,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.90,Heavy,Premium,113060.15999999999,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,6,0,1024,0,0,1024,2.80,Heavy,Budget,34578.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,2048,0,0,2048,2.20,Heavy,Budget,29250.719999999998,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,67399.2,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,19180.267200000002,No
+HP,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,16,256,0,0,0,256,1.28,Light,Premium,105228,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Mid-Range,55571.04,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.30,Heavy,Mid-Range,43636.32,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,1.86,Medium,Budget,24988.32,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.10,Light,Mid-Range,53226.72,No
+DELL,Ultrabook,13.3,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,16,1024,0,0,0,1024,1.21,Light,Premium,133146.72,No
+MSI,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.80,Heavy,Premium,111834.72,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A8-Series,NULL,2.00,Lower-Mid,AMD,8,256,0,0,0,256,2.23,Heavy,Budget,24988.32,No
+ASUS,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.10,Light,Budget,14652,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,128,1024,0,0,1152,2.33,Heavy,Mid-Range,44968.32,No
+HP,"2 in 1 Convertible",13.3,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,16,1024,0,0,0,1024,1.29,Light,Premium,130482.72,No
+LENOVO,Notebook,13.3,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,1.45,Medium,Budget,24503.471999999998,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.95,Medium,Mid-Range,52214.4,No
+ACER,Notebook,11.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,0,128,0,128,1.40,Medium,Budget,25840.8,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.48,Medium,Mid-Range,68837.76,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.79,Heavy,Budget,31381.92,No
+ASUS,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,58288.32,No
+HP,Notebook,15.6,1366,768,IPS,No,HD,Intel,i7,8,1.00,High,Intel,8,0,1024,0,0,1024,2.10,Medium,Mid-Range,48058.56,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A12-Series,NULL,2.00,Upper-Mid,AMD,8,256,0,0,0,256,2.20,Heavy,Budget,35111.52,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.44,Medium,Budget,15557.76,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,6,0,1024,0,0,1024,2.23,Heavy,Budget,29250.719999999998,No
+ASUS,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.70,Medium,Mid-Range,55938.672,No
+HP,Ultrabook,12.5,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.26,Light,Mid-Range,71128.8,No
+DELL,Notebook,15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,32,1024,0,0,0,1024,2.06,Medium,Premium,140605.91999999998,Yes
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,1024,0,0,1280,2.70,Heavy,Mid-Range,63882.72,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,50243.04,No
+ASUS,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,1024,0,0,1280,2.00,Medium,Mid-Range,71075.52,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,1.85,Medium,Budget,23922.719999999998,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,53226.72,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.48,Medium,Mid-Range,67559.04,No
+DELL,Ultrabook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,1.90,Medium,Mid-Range,55890.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.84,Medium,Mid-Range,60952.32,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.00,Medium,Budget,14651.467200000001,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.00,Medium,Mid-Range,60885.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,14646.671999999999,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A12-Series,NULL,3.00,Upper-Mid,AMD,12,0,2048,0,0,2048,2.20,Heavy,Mid-Range,47898.72,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,8,0,1024,0,0,1024,2.10,Medium,Budget,38148.479999999996,No
+LENOVO,"2 in 1 Convertible",13.9,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,16,512,0,0,0,512,1.40,Medium,Premium,111834.72,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.20,Light,Premium,84129.12,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,2048,0,0,2304,2.40,Heavy,Mid-Range,60153.119999999995,No
+HP,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.44,Medium,Budget,14865.119999999999,No
+DELL,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,16,768,0,0,0,768,1.88,Medium,Premium,85672.1088,No
+ASUS,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.50,Medium,Budget,19980,No
+DELL,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,0,1024,0,0,1024,1.90,Medium,Budget,35324.64,No
+DELL,Notebook,15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.06,Medium,Premium,108020.9376,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.84,Medium,Mid-Range,69477.12,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.70,Heavy,Mid-Range,75071.52,No
+HP,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.60,Heavy,Premium,92615.0256,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,512,0,0,0,512,2.40,Heavy,Mid-Range,74751.84,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,2048,0,0,2176,2.02,Medium,Mid-Range,51729.55199999999,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,17155.627200000003,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.65,Heavy,Mid-Range,53226.72,No
+DELL,Notebook,15.6,1366,768,Standard,Yes,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,2048,0,0,2048,2.36,Heavy,Budget,29696.6736,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.36,Medium,Mid-Range,76030.56,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.86,Medium,Budget,23389.92,No
+ASUS,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,50349.6,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,6,128,1024,0,0,1152,2.80,Heavy,Budget,38308.32,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,1.86,Medium,Budget,34045.92,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Budget,26586.719999999998,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,8,0,2048,0,0,2048,2.04,Medium,Budget,20725.92,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,57808.799999999996,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.40,Heavy,Mid-Range,43103.52,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,256,0,0,0,256,2.33,Heavy,Mid-Range,47898.72,No
+HP,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.36,Medium,Premium,93240,No
+ASUS,"2 in 1 Convertible",15.6,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,512,2048,0,0,2560,2.26,Heavy,Mid-Range,58554.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,128,0,0,0,128,2.10,Medium,Budget,22697.28,No
+ASUS,Gaming,17.3,1920,1080,IPS,No,"Full HD",AMD,Ryzen,1,3.00,High,AMD,16,256,1024,0,0,1280,3.25,Heavy,Premium,117162.72,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,AMD,A8-Series,NULL,2.00,Lower-Mid,AMD,4,128,0,0,0,128,2.60,Heavy,Budget,26053.92,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.62,Medium,Mid-Range,46300.85279999999,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,256,0,0,0,256,1.91,Medium,Budget,26053.3872,No
+LENOVO,Netbook,11.6,1366,768,IPS,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.59,Medium,Budget,29463.84,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,1.80,Medium,Budget,16463.52,No
+ASUS,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.50,Medium,Budget,15238.08,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.40,Heavy,Mid-Range,45074.88,No
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,3.35,Heavy,Mid-Range,63456.479999999996,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,1.85,Medium,Budget,21498.48,No
+ASUS,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.30,Heavy,Premium,88178.4,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.50,Medium,Mid-Range,58554.72,No
+ASUS,Ultrabook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.10,Light,Premium,93181.392,No
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.13,Light,Premium,121584.95999999999,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,1.50,Medium,Budget,29250.719999999998,No
+DELL,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,AMD,8,0,500,0,0,500,2.23,Heavy,Mid-Range,72940.31999999999,No
+DELL,Workstation,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,256,0,0,0,256,2.00,Medium,Premium,113752.8,No
+LENOVO,"2 in 1 Convertible",14,2560,1440,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.42,Medium,Premium,133679.52,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,3.00,Heavy,Mid-Range,55357.92,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.00,Heavy,Premium,84768.48,No
+ACER,Notebook,15.6,1366,768,IPS,No,HD,Intel,i5,8,1.00,Upper-Mid,NVIDIA,12,0,1024,0,0,1024,2.20,Heavy,Budget,36975.7872,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.70,Heavy,Mid-Range,71874.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,256,0,0,0,256,2.33,Heavy,Mid-Range,41498.1936,No
+HP,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,256,0,0,0,256,1.91,Medium,Budget,26586.719999999998,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,2.10,Medium,Mid-Range,65510.9568,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.90,Medium,Mid-Range,49976.64,No
+DELL,Workstation,15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.78,Medium,Premium,144495.36,Yes
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,7,2.00,High,Intel,16,1024,0,0,0,1024,1.13,Light,Premium,139860,Yes
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,16303.68,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.90,Heavy,Premium,81465.12,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,1024,0,0,1280,2.10,Medium,Mid-Range,60978.96,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.50,Heavy,Mid-Range,46833.119999999995,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.80,Heavy,Premium,119826.72,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.10,Light,Premium,99793.44,No
+TOSHIBA,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,Intel,16,512,0,0,0,512,1.20,Light,Premium,93080.16,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.36,Medium,Premium,89510.4,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,21791.52,No
+LENOVO,Notebook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.15,Light,Budget,16221.096,No
+LENOVO,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,512,0,0,0,512,2.67,Heavy,Premium,102564,No
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,7,2.00,High,NVIDIA,8,512,0,0,0,512,1.70,Medium,Premium,103523.04,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.10,Medium,Budget,24988.32,No
+ACER,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,42038.4528,No
+ASUS,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.27,Light,Mid-Range,49443.84,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,4,256,0,0,0,256,2.30,Heavy,Budget,31909.391999999996,No
+DELL,Notebook,13.3,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,1.65,Medium,Budget,36709.92,No
+HP,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.43,Medium,Mid-Range,79920,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.14,Medium,Budget,28768.536,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,1.75,Medium,Mid-Range,64755.44640000001,No
+LENOVO,"2 in 1 Convertible",15.6,3840,2160,IPS,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.00,Medium,Premium,101178.72,No
+CHUWI,Notebook,12.3,2736,1824,IPS,No,"Quad HD+",Intel,Celeron,NULL,1.00,Entry,Intel,6,0,0,64,0,64,1.40,Medium,Budget,23922.719999999998,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,2.31,Heavy,Mid-Range,76030.56,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,8,0,1024,0,0,1024,2.30,Heavy,Budget,31808.16,No
+DELL,Gaming,17.3,2560,1440,IPS,No,"Quad HD+",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.42,Heavy,Premium,149130.72,Yes
+DELL,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.62,Heavy,Mid-Range,61751.52,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,2048,0,0,2304,2.02,Medium,Mid-Range,60867.072,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,58554.72,No
+HP,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,256,1024,0,0,1280,3.35,Heavy,Premium,106506.72,No
+MEDIACOM,"2 in 1 Convertible",11.6,1920,1080,IPS,Yes,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,32,0,0,0,32,1.16,Light,Budget,15930.72,No
+SAMSUNG,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,1.15,Light,Budget,14332.32,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.40,Medium,Mid-Range,53812.799999999996,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,1.70,Medium,Budget,31914.719999999998,No
+LENOVO,Workstation,15.6,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.30,Heavy,Premium,130269.59999999999,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.50,Heavy,Premium,130482.72,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",AMD,Ryzen,1,3.00,High,AMD,8,256,1024,0,0,1280,3.20,Heavy,Premium,90309.59999999999,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.10,Medium,Budget,18488.16,No
+GOOGLE,Ultrabook,12.3,2400,1600,Standard,Yes,"Quad HD",Intel,i7,NULL,1.00,High,Intel,16,512,0,0,0,512,1.10,Light,Premium,117162.72,No
+LENOVO,Ultrabook,14,2560,1440,Standard,No,"Quad HD+",Intel,i7,7,2.00,High,Intel,24,512,0,0,0,512,1.32,Medium,Premium,126912.95999999999,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,2.00,Medium,Budget,29783.52,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,AMD,A6-Series,NULL,2.00,Entry,AMD,8,0,1024,0,0,1024,2.80,Heavy,Budget,27652.32,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,4,256,0,0,0,256,2.20,Heavy,Budget,39906.72,No
+LENOVO,Ultrabook,12.5,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.36,Medium,Mid-Range,76137.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Pentium,NULL,1.00,Entry,Intel,4,128,0,0,0,128,2.20,Heavy,Budget,18594.719999999998,No
+HP,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,58554.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.64,Medium,Mid-Range,62817.119999999995,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.40,Heavy,Budget,23539.104,No
+DELL,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,Xeon,NULL,3.00,High,NVIDIA,8,0,1024,64,0,1088,2.23,Heavy,Premium,106187.04,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Mid-Range,54757.987199999996,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.25,Light,Premium,137941.91999999998,Yes
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.91,Medium,Budget,31381.92,No
+DELL,Workstation,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,256,0,0,0,256,2.17,Medium,Premium,105228,No
+HP,Workstation,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,2.31,Heavy,Premium,81731.52,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.65,Medium,Mid-Range,71661.59999999999,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,128,1024,0,0,1152,2.36,Heavy,Mid-Range,52161.119999999995,No
+DELL,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,500,0,0,500,1.47,Medium,Budget,25521.12,No
+DELL,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,4.42,Heavy,Premium,109010.87999999999,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,"Core M",NULL,2.00,Mid,Intel,4,128,0,0,0,128,1.25,Light,Mid-Range,52693.92,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.25,Light,Premium,95850.72,No
+HP,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i3,6,2.00,Mid,Intel,8,256,0,0,0,256,2.50,Heavy,Budget,34093.871999999996,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,NVIDIA,4,0,1024,0,0,1024,2.23,Heavy,Budget,28984.32,No
+ACER,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.40,Medium,Budget,23176.8,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.37,Heavy,Budget,39906.72,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,512,0,0,0,512,1.50,Medium,Mid-Range,42570.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.67,Heavy,Premium,111355.2,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.00,Medium,Budget,16197.119999999999,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,NVIDIA,4,0,500,0,0,500,2.20,Heavy,Budget,24988.32,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,0,2048,0,0,2048,2.02,Medium,Mid-Range,40439.52,No
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,0,1024,0,0,1024,3.78,Heavy,Premium,90522.72,No
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,6,2.00,High,Intel,12,256,0,0,0,256,1.40,Medium,Premium,98994.23999999999,No
+HP,"2 in 1 Convertible",13.3,3840,2160,IPS,Yes,UHD,Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.29,Light,Premium,106506.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,0,500,0,0,500,1.90,Medium,Mid-Range,61485.119999999995,No
+GOOGLE,Ultrabook,12.3,2400,1600,Standard,Yes,"Quad HD",Intel,i5,NULL,1.00,Upper-Mid,Intel,8,128,0,0,0,128,1.10,Light,Mid-Range,67932,No
+DELL,Ultrabook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.42,Medium,Premium,98133.768,No
+ASUS,Notebook,15.6,3840,2160,IPS,No,UHD,Intel,i7,6,2.00,High,Intel,12,128,1024,0,0,1152,2.06,Medium,Mid-Range,69210.72,No
+DELL,Notebook,14,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,8,128,0,0,0,128,1.79,Medium,Budget,39427.2,No
+DELL,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.78,Medium,Premium,128298.23999999999,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,180,0,0,0,180,1.70,Medium,Mid-Range,72673.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.20,Heavy,Budget,35964,No
+TOSHIBA,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.05,Light,Premium,89084.16,No
+DELL,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,8,512,0,0,0,512,2.16,Medium,Mid-Range,67239.36,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,2.18,Medium,Budget,31254.048,No
+HP,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,128,0,0,0,128,1.49,Medium,Budget,38681.28,No
+CHUWI,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,0,0,64,0,64,1.89,Medium,Budget,13261.392000000002,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.30,Heavy,Budget,30103.199999999997,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.75,Medium,Mid-Range,55890.72,No
+DELL,Workstation,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,512,0,0,0,512,2.17,Medium,Premium,124568.64,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.06,Medium,Premium,101178.72,No
+LENOVO,Ultrabook,12.5,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.36,Medium,Premium,95797.44,No
+ASUS,Ultrabook,12.5,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,0.91,Light,Premium,103896,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.30,Heavy,Mid-Range,53918.82719999999,No
+TOSHIBA,Ultrabook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,32,512,0,0,0,512,1.05,Light,Premium,149130.72,Yes
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,1.99,Medium,Mid-Range,71928,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.20,Heavy,Budget,30849.12,No
+ASUS,Gaming,17.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,6,2.00,High,NVIDIA,24,256,1024,0,0,1280,4.33,Heavy,Mid-Range,67612.31999999999,No
+LENOVO,Ultrabook,12.5,1366,768,IPS,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,8,180,0,0,0,180,1.30,Medium,Mid-Range,58554.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,2.17,Medium,Mid-Range,47893.39199999999,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,1024,0,0,0,1024,1.48,Medium,Premium,93186.72,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,8,256,0,0,0,256,1.40,Medium,Mid-Range,50562.72,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.30,Heavy,Mid-Range,48538.08,No
+ASUS,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,64,0,64,1.20,Light,Budget,18115.2,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,8,256,0,0,0,256,1.91,Medium,Budget,32979.7872,No
+LENOVO,"2 in 1 Convertible",13.9,1920,1080,IPS,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.40,Medium,Premium,85194.72,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.10,Medium,Budget,15930.72,No
+LENOVO,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,16,0,0,0,16,1.25,Light,Budget,14119.199999999999,No
+LENOVO,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.44,Medium,Mid-Range,50562.72,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,1024,0,0,1280,2.00,Medium,Mid-Range,65214.72,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.20,Heavy,Budget,32660.64,No
+HP,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.34,Medium,Mid-Range,70489.44,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,1024,0,0,1280,2.40,Heavy,Mid-Range,61218.72,No
+DELL,Ultrabook,13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.29,Light,Mid-Range,47898.72,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,4,0,500,0,0,500,2.20,Heavy,Budget,34045.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.18,Medium,Mid-Range,44542.08,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,16,256,2048,0,0,2304,2.20,Heavy,Mid-Range,64961.10719999999,No
+XIAOMI,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,NVIDIA,16,256,0,0,0,256,1.95,Medium,Mid-Range,74589.336,No
+ASUS,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.10,Light,Budget,13053.6,No
+HP,Notebook,15.6,1366,768,Standard,Yes,HD,Intel,i5,8,1.00,Upper-Mid,Intel,4,0,1024,0,0,1024,2.04,Medium,Budget,27783.921599999998,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,24,512,0,0,0,512,2.24,Heavy,Premium,158135.04,Yes
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.04,Medium,Mid-Range,47365.92,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.00,Heavy,Premium,80133.12,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,1024,0,0,1280,3.20,Heavy,Mid-Range,74538.72,No
+HP,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.32,Medium,Mid-Range,74538.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.64,Medium,Mid-Range,68184.0144,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,1.63,Medium,Budget,36709.92,No
+DELL,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,128,1024,0,0,1152,2.80,Heavy,Mid-Range,47365.92,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.02,Medium,Mid-Range,71395.2,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,4,0,1024,0,0,1024,2.20,Heavy,Mid-Range,42570.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,NVIDIA,8,0,2048,0,0,2048,2.20,Heavy,Budget,24455.52,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,4,0,500,0,0,500,2.30,Heavy,Budget,31168.8,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.90,Medium,Mid-Range,73366.56,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,4.42,Heavy,Premium,160520.3856,Yes
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,500,0,0,500,2.00,Medium,Mid-Range,45820.799999999996,No
+ASUS,Notebook,15.6,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,8,256,1024,0,0,1280,2.00,Medium,Mid-Range,69210.72,No
+MEDIACOM,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,32,0,0,0,32,1.20,Light,Budget,19660.32,No
+ASUS,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.30,Heavy,Premium,87858.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.93,Medium,Mid-Range,72940.31999999999,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,256,0,0,0,256,2.20,Heavy,Mid-Range,42486.004799999995,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Pentium,NULL,1.00,Entry,Intel,4,256,0,0,0,256,1.86,Medium,Budget,21258.1872,No
+HP,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,0,1024,0,0,1024,2.62,Heavy,Premium,95850.72,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.87,Medium,Mid-Range,45767.52,No
+DELL,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,8,1.00,High,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,74538.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,1.60,Medium,Budget,39207.1536,No
+HP,Ultrabook,13.3,3200,1800,IPS,No,"Quad HD+",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.34,Medium,Mid-Range,61005.6,No
+ACER,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.40,Heavy,Mid-Range,42517.439999999995,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,AMD,E-Series,NULL,1.00,Entry,AMD,4,0,500,0,0,500,2.00,Medium,Budget,18594.719999999998,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,2.10,Medium,Budget,37589.04,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.87,Medium,Mid-Range,41824.799999999996,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,2.15,Medium,Budget,24634.008,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.86,Medium,Budget,21152.16,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.99,Medium,Premium,92121.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.20,Heavy,Budget,26586.719999999998,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.90,Medium,Mid-Range,59513.227199999994,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.42,Heavy,Premium,143802.72,Yes
+HP,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i3,6,2.00,Mid,Intel,8,0,1024,0,0,1024,2.65,Heavy,Budget,28992.311999999998,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.63,Heavy,Mid-Range,68198.4,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.00,Medium,Budget,11934.72,No
+MEDIACOM,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.35,Medium,Budget,13586.4,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i7,7,2.00,High,NVIDIA,6,128,1024,0,0,1152,2.80,Heavy,Mid-Range,50562.72,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,6,128,0,0,0,128,1.91,Medium,Budget,30310.992,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.18,Medium,Budget,32921.712,No
+ACER,"2 in 1 Convertible",11.6,1920,1080,IPS,Yes,"Full HD",Intel,Celeron,NULL,2.00,Entry,Intel,4,0,0,32,0,32,1.25,Light,Budget,18594.719999999998,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,2.05,Medium,Budget,33566.4,No
+HP,Ultrabook,13.3,3200,1800,IPS,Yes,"Quad HD+",Intel,"Core M",NULL,1.00,Mid,Intel,16,512,0,0,0,512,1.16,Light,Premium,104695.2,No
+LENOVO,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,3.40,Heavy,Premium,159786.72,Yes
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,44701.92,No
+DELL,Ultrabook,13.3,3840,2160,IPS,Yes,UHD,Intel,i5,8,1.00,Upper-Mid,Intel,8,128,0,0,0,128,1.21,Light,Premium,85194.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.93,Medium,Mid-Range,51095.52,No
+FUJITSU,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.20,Heavy,Budget,39373.92,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Pentium,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,18328.32,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.02,Medium,Mid-Range,52747.2,No
+HP,Workstation,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,500,0,0,500,3.14,Heavy,Premium,99153.5472,No
+HP,Notebook,14,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,8,0,2048,0,0,2048,1.94,Medium,Budget,20725.92,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,6,256,0,0,0,256,1.95,Medium,Budget,34578.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.30,Heavy,Mid-Range,44222.4,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,0,500,0,0,500,2.05,Medium,Budget,36496.799999999996,No
+MEDIACOM,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,32,0,0,0,32,1.40,Medium,Budget,13266.72,No
+TOSHIBA,Ultrabook,14,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.24,Light,Premium,99367.2,No
+LENOVO,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,32,256,1024,0,0,1280,4.60,Heavy,Premium,141884.63999999998,Yes
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,4.14,Heavy,Premium,145401.12,Yes
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,256,0,0,0,256,2.20,Heavy,Budget,39907.252799999995,No
+MEDIACOM,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,32,0,0,0,32,1.45,Medium,Budget,20725.92,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,500,0,0,500,1.90,Medium,Mid-Range,53733.94559999999,No
+HP,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,1.49,Medium,Budget,38308.32,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,1.93,Medium,Premium,81912.13919999999,No
+DELL,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,1.26,Light,Budget,15717.599999999999,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,128,1024,0,0,1152,4.50,Heavy,Premium,125154.72,No
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.78,Heavy,Mid-Range,79813.44,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,Intel,12,256,0,0,0,256,1.40,Medium,Premium,89137.44,No
+LENOVO,Notebook,15.6,1366,768,Standard,Yes,HD,Intel,i7,8,1.00,High,Intel,12,0,1024,0,0,1024,2.20,Heavy,Budget,32447.52,No
+ASUS,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.73,Heavy,Premium,94305.59999999999,No
+ASUS,"2 in 1 Convertible",15.6,1366,768,Standard,Yes,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.20,Heavy,Budget,39373.92,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A12-Series,NULL,3.00,Upper-Mid,AMD,12,512,0,0,0,512,2.20,Heavy,Mid-Range,50562.72,No
+DELL,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,"Core M",NULL,1.00,Mid,Intel,4,128,0,0,0,128,1.39,Medium,Budget,32127.84,No
+SAMSUNG,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.50,Heavy,Premium,90522.72,No
+LENOVO,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.80,Heavy,Budget,28185.12,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,8,0,1024,0,0,1024,2.29,Heavy,Budget,24455.52,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.37,Medium,Premium,107892,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.70,Medium,Mid-Range,78534.72,No
+DELL,"2 in 1 Convertible",12.5,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.34,Medium,Premium,88977.59999999999,No
+DELL,Workstation,15.6,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.06,Medium,Premium,93932.64,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.84,Medium,Mid-Range,64948.32,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,35616.6144,No
+ACER,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.60,Medium,Budget,17529.12,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,128,1024,0,0,1152,4.14,Heavy,Premium,117162.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.18,Medium,Budget,24775.2,No
+MSI,Gaming,15.6,3840,2160,Standard,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,256,2048,0,0,2304,1.80,Medium,Premium,122490.72,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,2.20,Heavy,Mid-Range,74538.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,6,0,1024,0,0,1024,2.40,Heavy,Budget,30049.92,No
+LENOVO,"2 in 1 Convertible",15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,69210.72,No
+ACER,Notebook,14,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,0,128,0,128,1.60,Medium,Budget,18594.719999999998,No
+LENOVO,Notebook,15.6,3840,2160,IPS,No,UHD,Intel,Xeon,NULL,3.00,High,NVIDIA,32,1024,0,0,0,1024,2.50,Heavy,Premium,261018.72,Yes
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,0,1024,0,0,1024,2.59,Heavy,Mid-Range,46833.652799999996,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.18,Medium,Budget,23650.992,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.25,Heavy,Budget,19127.52,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.93,Medium,Mid-Range,46300.32,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,3.00,Heavy,Mid-Range,62231.04,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,4,128,0,0,0,128,2.18,Medium,Budget,30316.32,No
+HP,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.84,Medium,Mid-Range,74005.92,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.94,Heavy,Premium,120831.58080000001,No
+ACER,"2 in 1 Convertible",11.6,1366,768,IPS,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.25,Light,Budget,20193.12,No
+HP,Notebook,14,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.31,Heavy,Mid-Range,59886.72,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.65,Medium,Mid-Range,78055.2,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,4,0,1024,0,0,1024,2.20,Heavy,Mid-Range,41345.28,No
+FUJITSU,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.20,Heavy,Mid-Range,42570.72,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.88,Medium,Mid-Range,49656.96,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Mid-Range,47898.72,No
+MEDIACOM,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.40,Medium,Budget,12733.92,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,2.20,Heavy,Budget,24935.04,No
+ASUS,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,6,0,1024,0,0,1024,1.50,Medium,Budget,34046.4528,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.00,Medium,Premium,96969.59999999999,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.10,Light,Premium,101232,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.62,Heavy,Mid-Range,78801.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,4,256,0,0,0,256,1.80,Medium,Mid-Range,44169.119999999995,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,NVIDIA,4,0,1024,0,0,1024,2.20,Heavy,Budget,30849.12,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,8,0,1024,0,0,1024,2.00,Medium,Budget,21258.719999999998,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,1.99,Medium,Mid-Range,48304.7136,No
+DELL,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.23,Light,Premium,99580.31999999999,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.42,Medium,Budget,13266.72,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.37,Medium,Premium,93635.3376,No
+DELL,Notebook,15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,16,1024,0,0,0,1024,2.06,Medium,Premium,127818.72,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,59087.52,No
+HP,Notebook,17,1600,900,Standard,No,HD+,AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,8,0,1024,0,0,1024,2.60,Heavy,Budget,27753.552,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.14,Light,Premium,130536,No
+ASUS,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.50,Heavy,Mid-Range,62284.32,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.40,Heavy,Budget,23976,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.43,Medium,Budget,14598.72,No
+ACER,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.80,Medium,Mid-Range,48964.32,No
+RAZER,Gaming,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,1.95,Medium,Premium,138474.72,Yes
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,64628.64,No
+LENOVO,Ultrabook,12.5,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.36,Medium,Premium,84395.52,No
+ASUS,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,32,512,0,0,0,512,3.80,Heavy,Premium,149130.72,Yes
+ACER,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.40,Heavy,Budget,37775.52,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,77250.672,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,63499.10399999999,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.86,Medium,Budget,19441.872,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,500,0,0,500,2.00,Medium,Mid-Range,56689.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,8,256,0,0,0,256,2.20,Heavy,Mid-Range,48964.32,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,8,1.00,High,AMD,16,256,2048,0,0,2304,2.20,Heavy,Mid-Range,60472.799999999996,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,128,1024,0,0,1152,3.31,Heavy,Mid-Range,63722.88,No
+DELL,Gaming,17.3,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,32,512,1024,0,0,1536,4.42,Heavy,Premium,167691.8736,Yes
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.56,Medium,Mid-Range,65481.119999999995,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,22324.32,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,28504.8,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,6,0,1024,0,0,1024,2.04,Medium,Budget,28717.92,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.70,Heavy,Mid-Range,79215.1056,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.10,Medium,Budget,26533.44,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.06,Medium,Mid-Range,50882.4,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,0,1024,0,0,1024,2.10,Medium,Budget,39693.6,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,67026.23999999999,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,128,0,0,0,128,2.10,Medium,Budget,21951.36,No
+MICROSOFT,Ultrabook,13.5,2256,1504,Standard,Yes,"Quad HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.25,Light,Premium,99519.048,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,128,1024,0,0,1152,1.90,Medium,Mid-Range,43580.376000000004,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.30,Medium,Mid-Range,55091.52,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,AMD,E-Series,NULL,2.00,Entry,AMD,4,128,0,0,0,128,2.20,Heavy,Budget,18594.719999999998,No
+HP,"2 in 1 Convertible",14,1920,1080,IPS,Yes,"Full HD",Intel,i3,7,2.00,Mid,NVIDIA,4,128,0,0,0,128,1.63,Medium,Budget,37242.72,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.40,Heavy,Mid-Range,68944.31999999999,No
+ASUS,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.10,Light,Mid-Range,60472.799999999996,No
+HP,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,8,0,0,64,0,64,1.40,Medium,Budget,26373.6,No
+LG,Ultrabook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.09,Light,Premium,122490.72,No
+ACER,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,16,256,0,0,0,256,2.50,Heavy,Mid-Range,69210.72,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.20,Heavy,Mid-Range,53168.111999999994,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.86,Medium,Budget,22324.32,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,16,128,1024,0,0,1152,3.21,Heavy,Premium,109277.28,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,256,0,0,0,256,2.50,Heavy,Budget,37242.72,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,8,1.00,High,Intel,8,512,0,0,0,512,1.19,Light,Mid-Range,79866.72,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.49,Heavy,Premium,149916.6,Yes
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,4,0,500,0,0,500,1.86,Medium,Budget,32639.8608,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.20,Heavy,Budget,29073.297599999994,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,6,0,2048,0,0,2048,2.65,Heavy,Budget,30316.32,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.10,Medium,Budget,16943.04,No
+ACER,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.45,Medium,Budget,19980,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.70,Medium,Budget,37242.72,No
+HP,Workstation,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,500,0,0,500,3.14,Heavy,Premium,101657.7072,No
+LENOVO,"2 in 1 Convertible",14,2560,1440,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.42,Medium,Premium,137995.19999999998,Yes
+TOSHIBA,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.50,Medium,Mid-Range,51841.439999999995,No
+ACER,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.40,Medium,Budget,14332.32,No
+LENOVO,"2 in 1 Convertible",14,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.38,Medium,Premium,93186.72,No
+ASUS,"2 in 1 Convertible",12.5,1920,1080,Standard,Yes,"Full HD",Intel,"Core M",NULL,0.00,Mid,Intel,4,0,0,64,0,64,1.20,Light,Budget,35644.32,No
+TOSHIBA,Ultrabook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,6,2.00,High,Intel,16,512,0,0,0,512,1.36,Medium,Premium,100006.56,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,AMD,4,0,500,0,0,500,2.10,Medium,Budget,36709.92,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.56,Heavy,Mid-Range,43636.32,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A9-Series,NULL,2.00,Lower-Mid,AMD,4,256,0,0,0,256,2.20,Heavy,Budget,21258.719999999998,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,AMD,A12-Series,NULL,3.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.20,Heavy,Budget,22857.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,0,2048,0,0,2048,2.10,Medium,Budget,33110.856,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.90,Medium,Budget,23976,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.18,Medium,Mid-Range,42357.6,No
+ACER,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,53226.72,No
+LENOVO,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,512,0,0,0,512,2.18,Medium,Premium,98834.4,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.80,Medium,Mid-Range,63456.479999999996,No
+HP,Notebook,17.3,1920,1080,IPS,No,"Full HD",AMD,A10-Series,NULL,2.00,Upper-Mid,AMD,6,0,2048,0,0,2048,2.71,Heavy,Budget,34898.932799999995,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,66546.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.64,Medium,Mid-Range,58021.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,1.98,Medium,Budget,38681.28,No
+ASUS,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.50,Medium,Budget,15877.439999999999,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,16,512,0,0,0,512,1.93,Medium,Mid-Range,76012.44480000001,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.87,Medium,Mid-Range,45664.6896,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.90,Medium,Mid-Range,62817.119999999995,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,AMD,A6-Series,NULL,2.00,Entry,AMD,4,0,500,0,0,500,2.19,Medium,Budget,15877.439999999999,No
+MEDIACOM,Notebook,14,1920,1200,IPS,No,"Full HD",Intel,Atom,NULL,1.00,Entry,Intel,4,0,32,0,0,32,1.40,Medium,Budget,14119.199999999999,No
+HP,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.63,Heavy,Mid-Range,63936,No
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,6,2.00,High,Intel,8,512,0,0,0,512,1.17,Light,Premium,89864.1792,No
+HP,"2 in 1 Convertible",13.3,1366,768,IPS,Yes,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.58,Medium,Mid-Range,44574.048,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.32,Medium,Mid-Range,79866.72,No
+DELL,Gaming,17.3,3840,2160,Standard,No,UHD,Intel,i7,7,2.00,High,NVIDIA,32,1024,1024,0,0,2048,4.36,Heavy,Premium,194972.83200000002,Yes
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.70,Heavy,Mid-Range,71847.0144,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,1.90,Medium,Budget,26101.872,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,8,1.00,Upper-Mid,AMD,8,128,1024,0,0,1152,2.20,Heavy,Budget,38308.32,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,1.71,Medium,Budget,34578.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,8,0,1024,0,0,1024,2.32,Heavy,Budget,31409.625599999996,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,4,0,1024,0,0,1024,2.10,Medium,Budget,26053.92,No
+ACER,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,128,1024,0,0,1152,4.20,Heavy,Premium,103096.8,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,12,0,1024,0,0,1024,2.25,Heavy,Budget,34578.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A9-Series,NULL,3.00,Lower-Mid,AMD,6,128,1024,0,0,1152,2.10,Medium,Budget,34632,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.40,Heavy,Budget,29783.52,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.44,Medium,Mid-Range,51148.799999999996,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,4,0,1024,0,0,1024,1.85,Medium,Mid-Range,41505.119999999995,No
+HP,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,2.60,Heavy,Premium,128884.31999999999,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,8,1.00,Upper-Mid,Intel,8,0,1024,0,0,1024,1.55,Medium,Budget,35111.52,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,1.80,Medium,Premium,111593.89439999999,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.40,Heavy,Budget,21887.424,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.00,Medium,Mid-Range,64308.96,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,8,256,0,0,0,256,2.00,Medium,Budget,35431.2,No
+TOSHIBA,Notebook,14,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.25,Light,Premium,81784.8,No
+LENOVO,"2 in 1 Convertible",14,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.70,Medium,Mid-Range,53226.72,No
+LENOVO,Workstation,15.6,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,1024,0,0,0,1024,2.50,Heavy,Premium,175770.72,Yes
+ACER,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,2,0,0,32,0,32,1.68,Medium,Budget,17582.399999999998,No
+SAMSUNG,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,256,0,0,0,256,0.81,Light,Premium,87858.72,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,8,256,0,0,0,256,1.86,Medium,Budget,28717.92,No
+DELL,Notebook,14,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,60031.1088,No
+HP,Workstation,17.3,1920,1080,IPS,No,"Full HD",Intel,Xeon,NULL,2.00,High,NVIDIA,16,256,0,0,0,256,3.00,Heavy,Premium,233845.91999999998,Yes
+LENOVO,Netbook,11.6,1366,768,Standard,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.40,Medium,Budget,25308,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.84,Medium,Premium,101232,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.45,Heavy,Budget,30849.12,No
+LENOVO,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,180,0,0,0,180,1.70,Medium,Mid-Range,58394.88,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,7,2.00,High,Intel,4,256,0,0,0,256,2.37,Heavy,Mid-Range,45282.672,No
+LENOVO,"2 in 1 Convertible",13.3,3200,1800,IPS,Yes,"Quad HD+",Intel,i5,6,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.30,Medium,Mid-Range,63882.72,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,58554.72,No
+HP,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,256,0,0,0,256,2.59,Heavy,Premium,83170.08,No
+DELL,Gaming,15.6,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.42,Heavy,Premium,152859.7872,Yes
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,2.10,Medium,Budget,31914.719999999998,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,55837.439999999995,No
+DELL,Ultrabook,12.5,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,256,0,0,0,256,1.18,Light,Premium,99047.51999999999,No
+GOOGLE,Ultrabook,12.3,2400,1600,Standard,Yes,"Quad HD",Intel,i5,NULL,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.10,Light,Premium,83063.52,No
+ASUS,Ultrabook,13.3,3200,1800,IPS,No,"Quad HD+",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,60153.119999999995,No
+DELL,Notebook,13.3,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.65,Medium,Mid-Range,45234.72,No
+ACER,Notebook,13.3,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.60,Medium,Budget,34898.4,No
+ASUS,Notebook,17.3,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,NVIDIA,4,0,1024,0,0,1024,2.80,Heavy,Budget,25059.715199999995,No
+DELL,Gaming,15.6,3840,2160,IPS,Yes,UHD,Intel,i7,6,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.72,Heavy,Mid-Range,58554.72,No
+SAMSUNG,Ultrabook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.31,Medium,Premium,85194.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.10,Medium,Budget,15877.439999999999,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,16,256,0,0,0,256,2.30,Heavy,Mid-Range,62938.065599999994,No
+SAMSUNG,"2 in 1 Convertible",15,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,AMD,16,256,0,0,0,256,1.71,Medium,Premium,95850.72,No
+TOSHIBA,Notebook,14,1366,768,IPS,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.75,Medium,Mid-Range,54345.6,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.62,Heavy,Mid-Range,58554.72,No
+HP,Ultrabook,12.5,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.26,Light,Mid-Range,66280.31999999999,No
+ASUS,"2 in 1 Convertible",15.6,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,NVIDIA,12,0,2048,0,0,2048,2.30,Heavy,Mid-Range,44701.92,No
+LENOVO,Notebook,15.6,3840,2160,Standard,No,UHD,Intel,i7,6,2.00,High,NVIDIA,16,512,0,0,0,512,2.50,Heavy,Premium,126273.59999999999,No
+ACER,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,128,0,0,0,128,1.80,Medium,Budget,33886.08,No
+RAZER,Gaming,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,1.95,Medium,Premium,154458.72,Yes
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,Pentium,NULL,1.00,Entry,Intel,8,128,0,0,0,128,2.00,Medium,Budget,31003.631999999998,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,32,1024,1024,0,0,2048,4.42,Heavy,Premium,191211.264,Yes
+ASUS,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.30,Heavy,Premium,125208,No
+TOSHIBA,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,512,0,0,0,512,1.47,Medium,Premium,93985.92,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,8,0,1024,0,0,1024,2.20,Heavy,Budget,17529.12,No
+LENOVO,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.70,Medium,Premium,122490.72,No
+MSI,Gaming,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,1.60,Medium,Premium,100752.48,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,58021.92,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,4,0,1024,0,0,1024,2.40,Heavy,Mid-Range,53226.72,No
+ACER,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,4.20,Heavy,Premium,122490.72,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.62,Heavy,Mid-Range,52480.799999999996,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.24,Heavy,Mid-Range,71341.92,No
+VERO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.22,Light,Budget,10810.512,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.37,Medium,Premium,104961.59999999999,No
+LENOVO,"2 in 1 Convertible",15.6,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,256,0,0,0,256,2.08,Medium,Mid-Range,51095.52,No
+APPLE,Ultrabook,12,2304,1440,IPS,No,"Quad HD",Intel,"Core M",NULL,1.00,Mid,Intel,8,0,0,512,0,512,0.92,Light,Mid-Range,62071.2,No
+LENOVO,"2 in 1 Convertible",14,2560,1440,IPS,Yes,"Quad HD+",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.42,Medium,Premium,124142.4,No
+ASUS,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.63,Medium,Budget,15930.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.95,Medium,Mid-Range,43156.799999999996,No
+LENOVO,"2 in 1 Convertible",13.9,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.38,Medium,Mid-Range,71874.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,8,256,0,0,0,256,2.00,Medium,Budget,39373.92,No
+HP,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,3.14,Heavy,Premium,110017.872,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.37,Heavy,Mid-Range,58554.72,No
+DELL,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.29,Light,Mid-Range,79866.72,No
+DELL,Notebook,15.6,3840,2160,Standard,Yes,UHD,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.06,Medium,Premium,93186.72,No
+DELL,Netbook,11.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.63,Medium,Budget,39640.32,No
+HP,Netbook,12.5,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.26,Light,Mid-Range,74005.92,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.10,Medium,Mid-Range,41558.4,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,AMD,A12-Series,NULL,2.00,Upper-Mid,AMD,8,0,2048,0,0,2048,2.04,Medium,Budget,33513.119999999995,No
+DELL,Gaming,15.6,3840,2160,Standard,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,0,0,0,512,2.62,Heavy,Premium,89457.12,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.40,Heavy,Budget,32447.52,No
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,AMD,12,0,1024,0,0,1024,3.74,Heavy,Premium,93186.72,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,2.90,Heavy,Premium,128671.2,No
+SAMSUNG,Ultrabook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,0.81,Light,Mid-Range,79866.72,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,1.98,Medium,Mid-Range,51202.079999999994,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,256,0,0,0,256,2.18,Medium,Mid-Range,42081.076799999995,No
+LENOVO,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.32,Medium,Premium,99047.51999999999,No
+RAZER,Ultrabook,12.5,3840,2160,IPS,Yes,UHD,Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.29,Light,Premium,95850.72,No
+HP,Netbook,11.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,1.23,Light,Budget,20512.8,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,4.36,Heavy,Premium,133467.4656,No
+DELL,Notebook,14,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.76,Medium,Mid-Range,40226.4,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,2.10,Medium,Budget,26101.872,No
+TOSHIBA,Ultrabook,14,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.25,Light,Mid-Range,58075.2,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.13,Light,Premium,133146.72,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,2.40,Heavy,Mid-Range,63882.72,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,0,256,0,256,1.13,Light,Premium,99900,No
+TOSHIBA,Notebook,14,1366,768,Standard,No,HD,Intel,Pentium,NULL,2.00,Entry,Intel,4,128,0,0,0,128,1.75,Medium,Budget,26586.719999999998,No
+ASUS,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.10,Light,Mid-Range,72354.23999999999,No
+DELL,Notebook,14,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,500,0,0,500,1.76,Medium,Budget,31168.8,No
+ACER,Netbook,11.6,1366,768,IPS,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.35,Medium,Budget,18914.399999999998,No
+ACER,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,8,128,0,0,0,128,1.50,Medium,Budget,32980.32,No
+RAZER,Gaming,17.3,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,32,512,0,0,0,512,3.49,Heavy,Premium,292986.72,Yes
+LENOVO,Ultrabook,14,2560,1440,IPS,No,"Quad HD+",Intel,i7,6,2.00,High,Intel,16,512,0,0,0,512,1.10,Light,Premium,111834.72,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,4,0,1024,0,0,1024,2.10,Medium,Budget,27652.32,No
+LENOVO,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.70,Medium,Mid-Range,63190.079999999994,No
+LENOVO,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.32,Medium,Premium,87912,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,3.21,Heavy,Premium,147832.28639999998,Yes
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.90,Heavy,Premium,128884.31999999999,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,7,2.00,Mid,Intel,4,0,500,0,0,500,2.00,Medium,Budget,35644.32,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,1.50,Medium,Budget,17316,No
+ASUS,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,128,0,0,128,2.30,Heavy,Budget,31435.199999999997,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,512,1024,0,0,1536,2.73,Heavy,Premium,95850.72,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,32,512,1024,0,0,1536,4.42,Heavy,Premium,163723.57919999998,Yes
+HP,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.63,Heavy,Mid-Range,48484.799999999996,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,2.18,Medium,Budget,38041.3872,No
+HP,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,512,0,0,0,512,1.54,Medium,Premium,99633.59999999999,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,4,256,0,0,0,256,2.18,Medium,Budget,39373.92,No
+HP,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.40,Medium,Budget,32767.199999999997,No
+ASUS,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,NVIDIA,8,512,0,0,0,512,1.45,Medium,Mid-Range,54665.28,No
+HP,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.28,Light,Premium,121318.56,No
+HP,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,512,0,0,0,512,1.54,Medium,Mid-Range,78215.04,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.86,Medium,Budget,15930.72,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.10,Medium,Premium,101178.72,No
+DELL,Notebook,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,AMD,8,0,1024,0,0,1024,2.83,Heavy,Mid-Range,46087.2,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,1.96,Medium,Premium,101391.84,No
+ASUS,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.30,Heavy,Mid-Range,41931.36,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.90,Medium,Mid-Range,50349.6,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.00,Medium,Budget,23922.719999999998,No
+HP,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.28,Light,Premium,136343.52,Yes
+DELL,Notebook,13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,1.62,Medium,Budget,34578.72,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,24988.32,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.30,Heavy,Mid-Range,45323.1648,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,AMD,8,256,0,0,0,256,1.84,Medium,Mid-Range,71874.72,No
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.05,Light,Mid-Range,68464.8,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.50,Heavy,Mid-Range,54185.759999999995,No
+DELL,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.29,Light,Premium,119347.2,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.07,Medium,Mid-Range,48484.799999999996,No
+TOSHIBA,Ultrabook,13.3,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,58341.6,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.37,Medium,Premium,103896,No
+ACER,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.56,Medium,Mid-Range,48058.56,No
+DELL,Workstation,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.23,Heavy,Premium,94731.84,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.38,Heavy,Mid-Range,56210.4,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.20,Heavy,Budget,25521.12,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,2.00,Medium,Mid-Range,73952.64,No
+LENOVO,Notebook,13.3,1920,1080,IPS,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,180,0,0,0,180,1.44,Medium,Budget,39160.799999999996,No
+SAMSUNG,Ultrabook,15,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,0,0,0,256,1.23,Light,Premium,98514.72,No
+DELL,Ultrabook,12.5,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.60,Medium,Premium,90043.2,No
+ASUS,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.00,Medium,Budget,21258.1872,No
+XIAOMI,Ultrabook,13.3,1920,1080,IPS,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,NVIDIA,8,256,0,0,0,256,1.28,Light,Mid-Range,49816.799999999996,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,4,128,1024,0,0,1152,2.18,Medium,Mid-Range,48618,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,2.04,Medium,Mid-Range,44701.92,No
+HP,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.28,Light,Premium,90576,No
+HP,"2 in 1 Convertible",15.6,1366,768,Standard,Yes,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.30,Heavy,Budget,36486.14399999999,No
+ASUS,Notebook,14.1,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.65,Medium,Budget,18541.44,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,35644.32,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.20,Heavy,Budget,19660.32,No
+HP,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,256,0,0,0,256,1.28,Light,Premium,95850.72,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.18,Medium,Budget,24279.695999999996,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,12,128,1024,0,0,1152,2.20,Heavy,Mid-Range,72988.272,No
+ACER,Netbook,11.6,1366,768,IPS,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.25,Light,Budget,15824.16,No
+LENOVO,Notebook,17.3,1600,900,Standard,No,HD+,AMD,A4-Series,NULL,2.00,Entry,AMD,4,0,500,0,0,500,2.80,Heavy,Budget,20193.12,No
+HP,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.95,Medium,Mid-Range,67399.2,No
+HP,"2 in 1 Convertible",13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,16,256,0,0,0,256,1.42,Medium,Mid-Range,74538.72,No
+SAMSUNG,Ultrabook,15,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.17,Light,Premium,90522.72,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.32,Medium,Premium,95850.72,No
+MSI,Gaming,17.3,3840,2160,IPS,No,UHD,Intel,i7,6,2.00,High,NVIDIA,16,512,2048,0,0,2560,2.43,Heavy,Premium,141138.72,Yes
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.05,Light,Mid-Range,78588,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.62,Heavy,Mid-Range,49497.119999999995,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.04,Medium,Mid-Range,47952,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.18,Medium,Budget,32713.92,No
+DELL,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,500,0,0,500,1.90,Medium,Mid-Range,49816.799999999996,No
+DELL,"2 in 1 Convertible",13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,NULL,1.00,High,Intel,8,512,0,0,0,512,1.24,Light,Premium,107257.968,No
+ASUS,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,32,512,0,0,0,512,3.58,Heavy,Mid-Range,68145.12,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i7,NULL,1.00,High,Intel,16,256,0,0,0,256,1.22,Light,Premium,87858.72,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,0,0,256,0,256,1.13,Light,Premium,109170.72,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,512,0,0,0,512,1.95,Medium,Premium,104588.1072,No
+LG,Ultrabook,15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,16,512,0,0,0,512,1.08,Light,Premium,111834.72,No
+HP,Netbook,12.5,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.26,Light,Mid-Range,79014.23999999999,No
+ACER,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,16,0,16,2.20,Heavy,Budget,19127.52,No
+LENOVO,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.60,Heavy,Mid-Range,42037.92,No
+LG,Ultrabook,14,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,0.98,Light,Premium,101178.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.60,Medium,Mid-Range,64202.399999999994,No
+HP,Ultrabook,12.5,3840,2160,Standard,Yes,UHD,Intel,"Core M",NULL,1.00,Mid,Intel,8,240,0,0,0,240,1.09,Light,Premium,165168,Yes
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,6,256,0,0,0,256,2.20,Heavy,Mid-Range,42037.92,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,256,0,0,0,256,2.04,Medium,Mid-Range,54291.78719999999,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,0,1024,0,0,1024,2.40,Heavy,Budget,26586.719999999998,No
+LENOVO,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.44,Medium,Mid-Range,46939.68,No
+HP,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.49,Medium,Mid-Range,51148.799999999996,No
+MSI,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.70,Heavy,Premium,85194.72,No
+DELL,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,128,1024,0,0,1152,2.60,Heavy,Mid-Range,71874.72,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,59668.804800000005,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,4,0,1024,0,0,1024,2.18,Medium,Budget,36496.2672,No
+HP,Ultrabook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,AMD,8,256,0,0,0,256,1.84,Medium,Mid-Range,69103.62719999999,No
+HP,Ultrabook,13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.39,Medium,Mid-Range,61218.72,No
+TOSHIBA,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,16,256,0,0,0,256,2.40,Heavy,Premium,105228,No
+LENOVO,"2 in 1 Convertible",13.3,1920,1080,IPS,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,512,0,0,0,512,1.37,Medium,Premium,97236,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.95,Medium,Budget,38889.072,No
+LENOVO,Ultrabook,12.5,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.36,Medium,Premium,87912,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.31,Heavy,Mid-Range,62071.2,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,1024,0,0,1024,2.18,Medium,Budget,37725.436799999996,No
+HP,Notebook,14,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.95,Medium,Mid-Range,61218.72,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,2.20,Heavy,Budget,16463.52,No
+HP,Ultrabook,12.5,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.26,Light,Premium,84129.12,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,1024,0,0,1024,1.86,Medium,Budget,15392.591999999999,No
+LENOVO,"2 in 1 Convertible",13.3,3200,1800,IPS,Yes,"Quad HD+",Intel,i7,6,2.00,High,Intel,16,1024,0,0,0,1024,1.30,Medium,Premium,95850.72,No
+TOSHIBA,Notebook,14,1920,1080,IPS,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.47,Medium,Mid-Range,58874.4,No
+HP,Netbook,12.5,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.26,Light,Premium,88924.31999999999,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,Intel,4,0,1024,0,0,1024,2.18,Medium,Budget,29762.208,No
+MSI,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.20,Heavy,Mid-Range,63882.72,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.36,Medium,Premium,87325.92,No
+DELL,Gaming,17.3,2560,1440,Standard,No,"Quad HD+",Intel,i7,6,2.00,High,NVIDIA,16,512,1024,0,0,1536,4.36,Heavy,Premium,146946.24,Yes
+HP,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.75,Heavy,Mid-Range,74538.72,No
+ASUS,Notebook,17.3,1600,900,Standard,No,HD+,Intel,Pentium,NULL,1.00,Entry,NVIDIA,4,0,1024,0,0,1024,2.80,Heavy,Budget,28238.399999999998,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,2.23,Heavy,Budget,32980.32,No
+TOSHIBA,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.20,Heavy,Mid-Range,59620.32,No
+LENOVO,"2 in 1 Convertible",11.3,1920,1080,IPS,Yes,"Full HD",Intel,"Core M",NULL,1.00,Mid,Intel,8,256,0,0,0,256,1.10,Light,Mid-Range,69210.72,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",AMD,FX,NULL,2.00,High,AMD,16,512,1024,0,0,1536,2.50,Heavy,Mid-Range,53226.72,No
+DELL,Ultrabook,12.5,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.36,Medium,Mid-Range,78438.816,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,0,1024,0,0,1024,2.20,Heavy,Budget,36496.799999999996,No
+DELL,Notebook,17.3,1600,900,Standard,No,HD+,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.36,Heavy,Budget,35111.52,No
+ACER,Notebook,14,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.68,Medium,Budget,18594.719999999998,No
+HP,Workstation,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,8,8,0,0,0,8,2.00,Medium,Premium,119826.72,No
+DELL,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.36,Medium,Premium,94572,No
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Mid-Range,77788.8,No
+ASUS,"2 in 1 Convertible",12.5,1920,1080,Standard,No,"Full HD",Intel,"Core M",NULL,1.00,Mid,Intel,8,0,0,64,0,64,1.20,Light,Mid-Range,61751.52,No
+LENOVO,Ultrabook,14,1920,1080,IPS,No,"Full HD",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.70,Medium,Mid-Range,79333.3872,No
+DELL,Gaming,17.3,3840,2160,IPS,No,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,1024,0,0,1536,4.36,Heavy,Premium,168045.12,Yes
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,NULL,1.00,Upper-Mid,Intel,8,256,0,0,0,256,1.24,Light,Premium,101178.72,No
+HP,"2 in 1 Convertible",11.6,1366,768,Standard,Yes,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,256,0,0,0,256,1.45,Medium,Mid-Range,41292,No
+DELL,Ultrabook,13.3,3200,1800,Standard,No,"Quad HD+",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.30,Medium,Mid-Range,67559.04,No
+ACER,"2 in 1 Convertible",11.6,1366,768,IPS,Yes,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,0,0,32,0,32,1.25,Light,Budget,20725.92,No
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.20,Light,Premium,81784.8,No
+LENOVO,Ultrabook,12.5,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.36,Medium,Premium,93772.8,No
+ACER,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,12,128,1024,0,0,1152,2.40,Heavy,Mid-Range,53759.52,No
+TOSHIBA,Ultrabook,12.5,1920,1080,Standard,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.10,Light,Premium,95371.2,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,0,1024,0,0,1024,2.04,Medium,Mid-Range,45101.52,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i3,6,2.00,Mid,AMD,4,0,1024,0,0,1024,2.25,Heavy,Budget,24808.233599999996,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.90,Medium,Mid-Range,43956,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,7,2.00,Mid,Intel,4,0,500,0,0,500,2.04,Medium,Budget,36496.799999999996,No
+DELL,Gaming,17.3,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,32,256,1024,0,0,1280,4.42,Heavy,Premium,167778.72,Yes
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,6,256,0,0,0,256,2.40,Heavy,Budget,37029.6,No
+DELL,"2 in 1 Convertible",13.3,3200,1800,Standard,Yes,"Quad HD+",Intel,i7,NULL,1.00,High,Intel,16,512,0,0,0,512,1.22,Light,Premium,101178.72,No
+DELL,Ultrabook,14,2560,1440,Standard,Yes,"Quad HD+",Intel,i7,6,2.00,High,Intel,8,256,0,0,0,256,1.50,Medium,Premium,104587.57439999998,No
+DELL,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,6,2.00,High,NVIDIA,32,256,1024,0,0,1280,4.42,Heavy,Premium,149184,Yes
+TOSHIBA,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.95,Medium,Mid-Range,62870.399999999994,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.73,Heavy,Premium,109218.672,No
+HP,Notebook,15.6,1920,1080,IPS,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,NVIDIA,8,128,1024,0,0,1152,2.04,Medium,Mid-Range,52161.119999999995,No
+LENOVO,Notebook,14,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,0,0,508,508,1.70,Medium,Mid-Range,53386.56,No
+ASUS,"2 in 1 Convertible",15.6,3840,2160,Standard,Yes,UHD,Intel,i7,7,2.00,High,NVIDIA,16,512,2048,0,0,2560,2.30,Heavy,Premium,95850.72,No
+HP,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,7,2.00,High,Intel,6,0,1024,0,0,1024,2.04,Medium,Budget,30849.12,No
+ASUS,Gaming,17.3,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.99,Heavy,Premium,93186.72,No
+DELL,"2 in 1 Convertible",15.6,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,12,512,0,0,0,512,2.19,Medium,Mid-Range,69210.72,No
+TOSHIBA,Notebook,13.3,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,4,128,0,0,0,128,1.20,Light,Mid-Range,63669.6,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",AMD,A12-Series,NULL,3.00,Upper-Mid,AMD,6,256,0,0,0,256,2.20,Heavy,Budget,29250.719999999998,No
+FUJITSU,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,256,0,0,0,256,2.30,Heavy,Budget,34578.72,No
+TOSHIBA,Notebook,14,1366,768,Standard,No,HD,Intel,i5,6,2.00,Upper-Mid,Intel,4,0,500,0,0,500,1.75,Medium,Mid-Range,48751.2,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i5,7,2.00,Upper-Mid,AMD,4,0,500,0,0,500,2.25,Heavy,Budget,31914.719999999998,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,0,1024,0,0,1024,2.04,Medium,Mid-Range,42943.68,No
+LENOVO,Gaming,15.6,1920,1080,IPS,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,8,128,1024,0,0,1152,2.50,Heavy,Mid-Range,63349.92,No
+DELL,Notebook,15.6,1366,768,Standard,No,HD,Intel,i7,7,2.00,High,AMD,8,0,1024,0,0,1024,2.36,Heavy,Budget,39906.72,No
+DELL,Notebook,14,1920,1080,Standard,No,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,128,0,0,0,128,1.60,Medium,Mid-Range,59620.32,No
+HP,Netbook,12.5,1920,1080,Standard,No,"Full HD",Intel,"Core M",NULL,1.00,Mid,Intel,8,512,0,0,0,512,0.97,Light,Premium,101658.23999999999,No
+HP,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i3,6,2.00,Mid,AMD,4,128,1024,0,0,1152,2.10,Medium,Budget,26586.719999999998,No
+LENOVO,Notebook,15.6,1366,768,Standard,No,HD,Intel,Celeron,NULL,1.00,Entry,Intel,4,128,0,0,0,128,1.90,Medium,Budget,14418.633600000001,No
+LENOVO,Notebook,15.6,1920,1080,Standard,No,"Full HD",Intel,i5,6,2.00,Upper-Mid,Intel,8,256,0,0,0,256,2.30,Heavy,Mid-Range,71874.72,No
+DELL,"2 in 1 Convertible",13.3,1920,1080,Standard,Yes,"Full HD",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.68,Medium,Mid-Range,47365.92,No
+ASUS,Notebook,13.3,3200,1800,Standard,No,"Quad HD+",Intel,i5,7,2.00,Upper-Mid,Intel,8,256,0,0,0,256,1.40,Medium,Mid-Range,61272,No
+HP,Ultrabook,13.3,1920,1080,IPS,Yes,"Full HD",Intel,i7,7,2.00,High,Intel,8,256,0,0,0,256,1.11,Light,Mid-Range,71874.72,No
+ACER,Notebook,15.6,1366,768,Standard,No,HD,Intel,Pentium,NULL,1.00,Entry,Intel,4,0,500,0,0,500,2.40,Heavy,Budget,20246.399999999998,No
+ASUS,Gaming,15.6,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,NVIDIA,16,256,1024,0,0,1280,2.50,Heavy,Premium,95850.72,No
+HP,Ultrabook,14,1920,1080,Standard,No,"Full HD",Intel,i7,7,2.00,High,Intel,8,512,0,0,0,512,1.48,Medium,Premium,111301.92,No

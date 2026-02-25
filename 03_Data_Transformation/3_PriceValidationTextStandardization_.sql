@@ -63,14 +63,14 @@ WHERE price <= 0; -- > exist none
 
 
 SELECT
-    price,
     CASE
         WHEN price < 40000 THEN 'Budget'
         WHEN price BETWEEN 40000 AND 80000 THEN 'Mid-Range'
         WHEN price > 80000 THEN 'Premium'
-        ELSE 'Not Specified'
+        ELSE Null
     END AS price_band
-FROM cleaned_laptop_data;
+FROM cleaned_laptop_data
+group by price_band;
 
 ALTER TABLE cleaned_laptop_data
 ADD COLUMN price_band VARCHAR(20);
@@ -82,6 +82,9 @@ SET price_band =
         WHEN price <= 80000 THEN 'Mid-Range'
         ELSE 'Premium'
     END;
+SELECT distinct price_band
+FROM cleaned_laptop_data
+group by price_band;
 -- Make price bands using defined thresholds and assign each product to a category such as Budget, Mid-Change, or Premium. 
 -- This creates a categorical feature that simplifies aggregation and reporting.
 -- 🏷️ Name Cleanup — Simple Data Consistency Style
@@ -112,14 +115,15 @@ WHERE company IN ('Hewlett Packard','Hp','hp');
 UPDATE cleaned_laptop_data
 SET opsys =
     CASE
-        WHEN opsys REGEXP 'windows' THEN 'Windows'
-        WHEN opsys REGEXP 'mac' THEN 'macOS'
-        WHEN opsys REGEXP 'linux|ubuntu' THEN 'Linux'
-        WHEN opsys REGEXP 'chrome' THEN 'Chrome OS'
+        WHEN LOWER(opsys) REGEXP 'windows' THEN 'Windows'
+        WHEN LOWER(opsys) REGEXP 'mac' THEN 'macOS'
+        WHEN LOWER(opsys) REGEXP 'linux|ubuntu' THEN 'Linux'
+        WHEN LOWER(opsys) REGEXP 'chrome' THEN 'Chrome OS'
         ELSE 'Not Specified'
     END;
-
-
+desc cleaned_laptop_data;
+SELECT distinct *
+FROM cleaned_laptop_data;
 
 
 -- =========================================================

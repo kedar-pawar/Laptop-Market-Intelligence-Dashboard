@@ -63,8 +63,8 @@ CHANGE COLUMN ScreenResolution display_resolution TEXT;
 -- Removing it to keep the table clean.
 -- =========================================================
 
-ALTER TABLE cleaned_laptop_data
-DROP COLUMN IF EXISTS MyUnknownColumn;
+-- ALTER TABLE cleaned_laptop_data
+-- DROP COLUMN IF EXISTS MyUnknownColumn;
 
 
 
@@ -141,12 +141,11 @@ SET cpu_model =
         THEN REGEXP_SUBSTR(cpu, 'm3|m5|m7')
 
         -- Fallback when nothing structured found
-        ELSE 'No Dedicated SKU'
+        ELSE Null
     END;
 -- 🔍 VALIDATION — see what didn’t match
 SELECT cpu, cpu_model
 FROM cleaned_laptop_data
-WHERE cpu_model IN ('No Dedicated SKU')
 LIMIT 20;
 
 -- ---------------------------------------------------------
@@ -175,7 +174,7 @@ SET resolution_class =
         WHEN display_resolution REGEXP '2560x1440' THEN 'Quad HD'
         WHEN display_resolution REGEXP '3200x1800' THEN 'Quad HD+'
         WHEN display_resolution REGEXP '3840x2160' THEN 'UHD'
-        ELSE 'Not Specified'
+        ELSE null
     END;
 
 
@@ -240,7 +239,7 @@ UPDATE cleaned_laptop_data
 SET cpu_brand =
     COALESCE(
         REGEXP_SUBSTR(cpu,'Intel|AMD|Samsung|Apple',1,1,'i'),
-        'Not Specified'
+        Null
     );
 
 
@@ -255,7 +254,7 @@ SET cpu_family =
             'Core M|M3|m3|i3|i5|i7|i9|Ryzen 3|Ryzen 5|Ryzen 7|Celeron|Pentium|Xeon|Atom',
             1,1,'i'
         ),
-        'Not Specified'
+        Null
     );
 
 -- validation
@@ -273,7 +272,7 @@ SET cpu_model =
             cpu,
             '[0-9][A-Z][0-9]{2,3}|[0-9]{4,5}[A-Z]{0,2}'
         ),
-        'Not Specified'
+        Null
     );
 
 -- validation
@@ -314,7 +313,7 @@ SET cpu_tier =
         WHEN cpu_family IN ('i7','i9','Ryzen 7','Xeon')
             THEN 'High'
 
-        ELSE 'Other'
+        ELSE NUll
     END;
 
 SELECT
@@ -379,7 +378,7 @@ SET gpu_brand =
         WHEN gpu REGEXP 'nvidia' THEN 'NVIDIA'
         WHEN gpu REGEXP 'amd'    THEN 'AMD'
         WHEN gpu REGEXP 'intel'  THEN 'Intel'
-        ELSE 'Other'
+        ELSE Null
     END;
 SELECT gpu_brand, COUNT(*)
 FROM cleaned_laptop_data
@@ -388,7 +387,7 @@ GROUP BY gpu_brand;
 SELECT 
     COUNT(*) AS total_rows,
     SUM(CASE WHEN display_resolution_width IS NULL AND display_resolution REGEXP '[0-9]+x[0-9]+' THEN 1 ELSE 0 END) AS failed_res_width,
-    SUM(CASE WHEN cpu_model = 'No Dedicated SKU' THEN 1 ELSE 0 END) AS no_sku_cpus,
+    SUM(CASE WHEN cpu_model = Null THEN 1 ELSE 0 END) AS no_sku_cpus,
     COUNT(DISTINCT cpu_tier) AS unique_tiers,
     AVG(clock_speed_ghz) AS avg_clock_ghz
 FROM cleaned_laptop_data;

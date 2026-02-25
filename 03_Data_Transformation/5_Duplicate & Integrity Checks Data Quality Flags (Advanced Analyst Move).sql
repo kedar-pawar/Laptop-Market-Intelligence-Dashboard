@@ -79,6 +79,13 @@ END;
 select suspect_flag,count(*)
 from cleaned_laptop_data
 group by suspect_flag;
+SELECT company,
+       cpu,
+       ram_gb,
+       price,
+       cpu_tier
+FROM cleaned_laptop_data
+WHERE suspect_flag = 'Yes';
 -- 42. How would you create a “data_quality_score” column based on missing fields?
 -- Score each row by counting how many important fields are populated. Higher score = better record quality.
 ALTER TABLE cleaned_laptop_data
@@ -86,12 +93,13 @@ ADD COLUMN data_quality_score INT;
 
 UPDATE cleaned_laptop_data
 SET data_quality_score =
-    (cpu_brand IS NOT NULL) +
-    (cpu_model IS NOT NULL) +
-    (ram_gb IS NOT NULL) +
-    (total_storage_gb IS NOT NULL) +
-    (gpu_brand IS NOT NULL) +
-    (display_resolution_width IS NOT NULL);
+    (cpu_brand IS NOT NULL) * 2 +
+    (cpu_model IS NOT NULL) * 2 +
+    (ram_gb IS NOT NULL) * 3 +
+    (total_storage_gb IS NOT NULL) * 2 +
+    (gpu_brand IS NOT NULL) * 1 +
+    (display_resolution_width IS NOT NULL) * 1 +
+    (price IS NOT NULL) * 3;
     
 select data_quality_score,count(*)
 from cleaned_laptop_data
@@ -130,3 +138,20 @@ WHERE cpu_brand = 'Intel' AND cpu REGEXP 'i[3579]-';
 -- store all cleaning SQL in scripts, run in ordered steps, use version control (Git), avoid manual edits
 -- parameterize thresholds , document assumptions, validate with check queries
 -- Reproducible cleaning = same input → same output every run. That’s professional analytics.
+
+
+ALTER TABLE cleaned_laptop_data
+ADD COLUMN data_quality_category VARCHAR(20);
+
+UPDATE cleaned_laptop_data
+SET data_quality_category =
+CASE
+    WHEN data_quality_score >= 14 THEN 'Excellent'
+    WHEN data_quality_score >= 12 THEN 'Good'
+    WHEN data_quality_score >= 9 THEN 'Average'
+    ELSE 'Poor'
+END;
+select data_quality_category,count(*)
+from cleaned_laptop_data
+group by data_quality_category;
+select * from cleaned_laptop_data;

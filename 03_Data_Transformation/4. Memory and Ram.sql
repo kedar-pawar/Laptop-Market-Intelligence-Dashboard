@@ -150,14 +150,21 @@ END;
 
 
 UPDATE cleaned_laptop_data
-SET hybrid_gb = hybrid_gb +
+SET hybrid_gb =
 CASE
- WHEN Memory REGEXP '\\+.*HYBRID'
+ WHEN Memory REGEXP '\\+.*Hybrid'
  THEN
    CASE
      WHEN SUBSTRING_INDEX(Memory,'+',-1) REGEXP 'TB'
      THEN CAST(REGEXP_SUBSTR(SUBSTRING_INDEX(Memory,'+',-1),'[0-9.]+') AS DECIMAL(6,2)) * 1024
      ELSE CAST(REGEXP_SUBSTR(SUBSTRING_INDEX(Memory,'+',-1),'[0-9]+') AS UNSIGNED)
+   END
+ WHEN Memory REGEXP 'Hybrid'
+ THEN
+   CASE
+     WHEN Memory REGEXP 'TB'
+     THEN CAST(REGEXP_SUBSTR(Memory,'[0-9.]+') AS DECIMAL(6,2)) * 1024
+     ELSE CAST(REGEXP_SUBSTR(Memory,'[0-9]+') AS UNSIGNED)
    END
  ELSE 0
 END;
@@ -171,12 +178,13 @@ WHERE Memory REGEXP 'TB';
 -- After extracting each drive capacity into numeric columns, I would sum them into a derived total_storage_gb column for reporting and modeling.
 UPDATE cleaned_laptop_data
 SET total_storage_gb =
-    COALESCE(ssd_gb,0) +
-    COALESCE(hdd_gb,0) +
-    COALESCE(flash_gb,0);
+    COALESCE(ssd_gb,null) +
+    COALESCE(hdd_gb,null) +
+    COALESCE(flash_gb,null)+
+    COALESCE(hybrid_gb,null);
 
 -- validation
-SELECT Memory, ssd_gb, hdd_gb, total_storage_gb
+SELECT distinct Memory, ssd_gb, hdd_gb,hybrid_gb, total_storage_gb
 FROM cleaned_laptop_data;
 
 -- Extract each storage component, convert them to the same unit, and sum them into a derived total storage column. This creates a single numeric feature for reporting and modeling.
@@ -202,7 +210,7 @@ SET weight_kg =
     ) AS DECIMAL(5,2)
   );
 
-select weight_kg, count(*)
+select distinct weight_kg, count(*)
 from cleaned_laptop_data
 group by weight_kg;
 -- ✅ Q34 — Some weight values may contain spaces like “1.5 kg”. How would you standardize them?
@@ -248,7 +256,8 @@ END;
 
 SELECT
   laptop_type,
-  ROUND(AVG(weight_kg),2) AS avg_weight
+  ROUND(AVG(weight_kg),2) AS avg_weight,
+  weight_class
 FROM cleaned_laptop_data
-GROUP BY laptop_type
+GROUP BY laptop_type,weight_class
 ORDER BY avg_weight;
