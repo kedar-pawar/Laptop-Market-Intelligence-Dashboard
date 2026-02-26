@@ -13,6 +13,5 @@ def preprocess(df):
     df["cpu_tier"] = df["cpu_tier"].map(cpu_mapping)
     df["is_touchscreen"] = df["is_touchscreen"].map({"Yes":1, "No":0})
 
-    df = pd.get_dummies(df, columns=["Company"], drop_first=True)
 
     return df
