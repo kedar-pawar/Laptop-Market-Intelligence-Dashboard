@@ -1,0 +1,1979 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0206.0336                               -->
+<workbook original-version='18.1' source-build='2025.3.3 (20253.26.0206.0336)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='MarketPositioningAnalysisD4' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data' inline='true' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='textscan.0dx3bdy0xb4huf1feb0gg0wdj0ux'>
+            <connection class='textscan' directory='C:/Users/pawar/Downloads' filename='data.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0dx3bdy0xb4huf1feb0gg0wdj0ux' name='data.csv' table='[data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Company' ordinal='0' />
+            <column datatype='real' name='Adjusted Revenue' ordinal='1' />
+            <column datatype='real' name='Adjusted Value Index' ordinal='2' />
+            <column datatype='real' name='Average Price' ordinal='3' />
+            <column datatype='real' name='Average Revenue' ordinal='4' />
+            <column datatype='real' name='Avg Value Index' ordinal='5' />
+            <column datatype='real' name='Discounted Price' ordinal='6' />
+            <column datatype='real' name='estimated_revenue(RS)' ordinal='7' />
+            <column datatype='integer' name='estimated_units_sold' ordinal='8' />
+            <column datatype='integer' name='High Value' ordinal='9' />
+            <column datatype='real' name='market_share' ordinal='10' />
+            <column datatype='real' name='Sum of Performance_Score' ordinal='11' />
+            <column datatype='string' name='pricing_strategy' ordinal='12' />
+            <column datatype='real' name='Price(RS)' ordinal='13' />
+            <column datatype='real' name='Revenue Change %' ordinal='14' />
+            <column datatype='string' name='Revenue Leader' ordinal='15' />
+            <column datatype='real' name='Scaled Units' ordinal='16' />
+            <column datatype='real' name='Total Revenue' ordinal='17' />
+            <column datatype='real' name='value_index' ordinal='18' />
+            <column datatype='integer' name='value_segment' ordinal='19' />
+            <column datatype='string' name='Value_segment_Map' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adjusted Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adjusted Revenue]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Adjusted Revenue</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adjusted Value Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adjusted Value Index]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Adjusted Value Index</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Price]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Average Price</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Revenue]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Average Revenue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg Value Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg Value Index]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Avg Value Index</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discounted Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discounted Price]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Discounted Price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_revenue(RS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_revenue(RS)]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>estimated_revenue(RS)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_units_sold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[estimated_units_sold]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>estimated_units_sold</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[High Value]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>High Value</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>market_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[market_share]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>market_share</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Performance_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sum of Performance_Score]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Sum of Performance_Score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pricing_strategy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pricing_strategy]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>pricing_strategy</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price(RS)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price(RS)]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Price(RS)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue Change %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue Change %]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Revenue Change %</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue Leader</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Revenue Leader]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Revenue Leader</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scaled Units</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Scaled Units]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Scaled Units</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Revenue]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Total Revenue</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[value_index]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>value_index</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value_segment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[value_segment]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>value_segment</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_segment_Map</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Value_segment_Map]</local-name>
+            <parent-name>[data.csv]</parent-name>
+            <remote-alias>Value_segment_Map</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' hidden='true' name='[Adjusted Revenue]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[Adjusted Value Index]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Avg Value Index]' role='measure' type='quantitative' />
+      <column caption='Top 3 Flag' datatype='string' name='[Calculation_3163063761051651]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF RANK(SUM([Total Revenue])) &lt;= 3 THEN &quot;Top 3&quot;&#13;&#10;ELSE &quot;Others&quot;&#13;&#10;END'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Market Share FIXED' datatype='real' default-format='p0.00%' name='[Calculation_3163063780020234]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Revenue])&#13;&#10;/&#13;&#10;SUM({ FIXED : SUM([Total Revenue]) })' />
+      </column>
+      <column caption='Revenue by Strategy' datatype='real' name='[Calculation_3163063789060108]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Revenue])' />
+      </column>
+      <column datatype='integer' hidden='true' name='[High Value]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[Revenue Change %]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Revenue Leader]' role='dimension' type='nominal' />
+      <column caption='Sum of Performance Score' datatype='real' name='[Sum of Performance_Score]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+      <column caption='Value segment Map' datatype='string' name='[Value_segment_Map]' role='dimension' type='nominal' />
+      <column caption='data.csv' datatype='table' name='[__tableau_internal_object_id__].[data.csv_039E467E25E7413AB71647F87C649589]' role='measure' type='quantitative' />
+      <column caption='estimated revenue(RS)' datatype='real' name='[estimated_revenue(RS)]' role='measure' type='quantitative' />
+      <column caption='Estimated Units Sold' datatype='integer' name='[estimated_units_sold]' role='measure' type='quantitative' />
+      <column caption='Market Share' datatype='real' default-format='p0%' name='[market_share]' role='measure' type='quantitative' />
+      <column caption='Pricing Strategy' datatype='string' name='[pricing_strategy]' role='dimension' type='nominal' />
+      <column caption='Value Index' datatype='real' name='[value_index]' role='measure' type='quantitative' />
+      <column caption='Value Segment' datatype='integer' name='[value_segment]' role='measure' type='quantitative' />
+      <column-instance column='[pricing_strategy]' derivation='None' name='[none:pricing_strategy:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Avg Value Index]' derivation='Sum' name='[sum:Avg Value Index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/pawar/AppData/Local/Temp/TableauTemp/#TableauTemp_0vlijfm127etbe125c9l50k0wdez.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/28/2026 12:58:39 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company</remote-alias>
+              <ordinal>0</ordinal>
+              <family>data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Average Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Average Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Average Price</remote-alias>
+              <ordinal>1</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Average Revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Average Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Average Revenue</remote-alias>
+              <ordinal>2</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg Value Index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg Value Index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg Value Index</remote-alias>
+              <ordinal>3</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discounted Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Discounted Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Discounted Price</remote-alias>
+              <ordinal>4</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estimated_revenue(RS)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[estimated_revenue(RS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>estimated_revenue(RS)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estimated_units_sold</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[estimated_units_sold]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>estimated_units_sold</remote-alias>
+              <ordinal>6</ordinal>
+              <family>data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>market_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[market_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>market_share</remote-alias>
+              <ordinal>7</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sum of Performance_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sum of Performance_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sum of Performance_Score</remote-alias>
+              <ordinal>8</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pricing_strategy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pricing_strategy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pricing_strategy</remote-alias>
+              <ordinal>9</ordinal>
+              <family>data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price(RS)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price(RS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price(RS)</remote-alias>
+              <ordinal>10</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Scaled Units</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Scaled Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Scaled Units</remote-alias>
+              <ordinal>11</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Revenue</remote-alias>
+              <ordinal>12</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>value_index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[value_index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>value_index</remote-alias>
+              <ordinal>13</ordinal>
+              <family>data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>value_segment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[value_segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>value_segment</remote-alias>
+              <ordinal>14</ordinal>
+              <family>data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value_segment_Map</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Value_segment_Map]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value_segment_Map</remote-alias>
+              <ordinal>15</ordinal>
+              <family>data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[data.csv_039E467E25E7413AB71647F87C649589]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Avg Value Index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:pricing_strategy:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Needs Repositioning&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Underpriced - Can Increase Price&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Premium - Brand Power Strategy&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='data.csv' id='data.csv_039E467E25E7413AB71647F87C649589'>
+            <properties context=''>
+              <relation connection='textscan.0dx3bdy0xb4huf1feb0gg0wdj0ux' name='data.csv' table='[data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Company' ordinal='0' />
+                  <column datatype='real' name='Adjusted Revenue' ordinal='1' />
+                  <column datatype='real' name='Adjusted Value Index' ordinal='2' />
+                  <column datatype='real' name='Average Price' ordinal='3' />
+                  <column datatype='real' name='Average Revenue' ordinal='4' />
+                  <column datatype='real' name='Avg Value Index' ordinal='5' />
+                  <column datatype='real' name='Discounted Price' ordinal='6' />
+                  <column datatype='real' name='estimated_revenue(RS)' ordinal='7' />
+                  <column datatype='integer' name='estimated_units_sold' ordinal='8' />
+                  <column datatype='integer' name='High Value' ordinal='9' />
+                  <column datatype='real' name='market_share' ordinal='10' />
+                  <column datatype='real' name='Sum of Performance_Score' ordinal='11' />
+                  <column datatype='string' name='pricing_strategy' ordinal='12' />
+                  <column datatype='real' name='Price(RS)' ordinal='13' />
+                  <column datatype='real' name='Revenue Change %' ordinal='14' />
+                  <column datatype='string' name='Revenue Leader' ordinal='15' />
+                  <column datatype='real' name='Scaled Units' ordinal='16' />
+                  <column datatype='real' name='Total Revenue' ordinal='17' />
+                  <column datatype='real' name='value_index' ordinal='18' />
+                  <column datatype='integer' name='value_segment' ordinal='19' />
+                  <column datatype='string' name='Value_segment_Map' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Market Revenue vs Product Value Gap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Market Revenue vs Product Value Gap</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column datatype='real' name='[Avg Value Index]' role='measure' type='quantitative' />
+            <column caption='Top 3 Flag' datatype='string' name='[Calculation_3163063761051651]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF RANK(SUM([Total Revenue])) &lt;= 3 THEN &quot;Top 3&quot;&#13;&#10;ELSE &quot;Others&quot;&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Avg Value Index]' derivation='Sum' name='[sum:Avg Value Index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3163063761051651]' derivation='User' name='[usr:Calculation_3163063761051651:nk]' pivot='key' type='nominal'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Avg Value Index:qk]' field-type='quantitative' fold='true' max='16.217834818815319' min='-0.71407752508041544' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Avg Value Index:qk]' scope='rows' value='Value Index' />
+            <encoding attr='space' class='0' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' field-type='quantitative' max='440041204546.33258' min='-19375184035.744389' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' value='c&quot;₹ &quot;#,##0,,,.00B;&quot;₹ &quot;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='fill-above' id='refline6' value='#00000000' />
+            <format attr='fill-below' id='refline6' value='#00000000' />
+            <format attr='fill-above' id='refline8' value='#00000000' />
+            <format attr='fill-below' id='refline8' value='#00000000' />
+            <format attr='fill-above' id='refline10' value='#00000000' />
+            <format attr='fill-below' id='refline10' value='#00000000' />
+            <format attr='stroke-color' id='refline10' value='#8989894b' />
+            <format attr='stroke-color' id='refline11' value='#8989894b' />
+            <format attr='stroke-color' id='refline8' value='#8989894b' />
+            <format attr='fill-above' id='refline12' value='#00000000' />
+            <format attr='fill-below' id='refline12' value='#00000000' />
+            <format attr='stroke-color' id='refline12' value='#8989894b' />
+            <format attr='stroke-size' id='refline13' value='0' />
+            <format attr='line-visibility' id='refline13' value='off' />
+            <format attr='stroke-size' id='refline11' value='0' />
+            <format attr='line-visibility' id='refline11' value='off' />
+            <format attr='fill-above' id='refline9' value='#00000000' />
+            <format attr='fill-below' id='refline9' value='#00000000' />
+            <format attr='stroke-size' id='refline9' value='0' />
+            <format attr='line-visibility' id='refline9' value='off' />
+            <format attr='stroke-size' id='refline7' value='0' />
+            <format attr='line-visibility' id='refline7' value='off' />
+            <format attr='background-color' id='refline7' value='#ffffff81' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-table' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='2' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline5' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='3' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline7' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='4' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline9' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='5' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#898989' />
+                <format attr='mark-transparency' value='206' />
+                <format attr='size' value='1.2963535785675049' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Avg Value Index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3513259887695312' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk] + [federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Avg Value Index:qk])</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]</cols>
+      </table>
+      <simple-id uuid='{5529033C-BEA7-4DBC-9D5E-F15F900A1DAE}' />
+    </worksheet>
+    <worksheet name='Positioning Map'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Brand Positioning Matrix</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column datatype='real' name='[Average Price]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Avg Value Index]' role='measure' type='quantitative' />
+            <column caption='Market Share FIXED' datatype='real' default-format='p0.00%' name='[Calculation_3163063780020234]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Total Revenue])&#13;&#10;/&#13;&#10;SUM({ FIXED : SUM([Total Revenue]) })' />
+            </column>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Average Price]' derivation='Avg' name='[avg:Average Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Avg Value Index]' derivation='Avg' name='[avg:Avg Value Index:qk]' pivot='key' type='quantitative' />
+            <column caption='Market Share' datatype='real' default-format='p0%' name='[market_share]' role='measure' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pricing_strategy]' derivation='None' name='[none:pricing_strategy:nk]' pivot='key' type='nominal' />
+            <column caption='Pricing Strategy' datatype='string' name='[pricing_strategy]' role='dimension' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[market_share]' derivation='Sum' name='[sum:market_share:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3163063780020234]' derivation='User' name='[usr:Calculation_3163063780020234:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' scope='cols' value='Average Price (₹)' />
+            <format attr='title' class='0' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' scope='rows' value='Total Revenue (₹ Billions)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' value='c&quot;₹ &quot;#,##0,,,.00B;&quot;₹ &quot;-#,##0,,,.00B' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='fill-above' id='refline6' value='#00000000' />
+            <format attr='fill-below' id='refline6' value='#00000000' />
+            <format attr='fill-above' id='refline8' value='#00000000' />
+            <format attr='fill-below' id='refline8' value='#00000000' />
+            <format attr='fill-above' id='refline10' value='#00000000' />
+            <format attr='fill-below' id='refline10' value='#00000000' />
+            <format attr='stroke-color' id='refline10' value='#8989894b' />
+            <format attr='stroke-color' id='refline11' value='#8989894b' />
+            <format attr='stroke-color' id='refline8' value='#8989894b' />
+            <format attr='fill-above' id='refline12' value='#00000000' />
+            <format attr='fill-below' id='refline12' value='#00000000' />
+            <format attr='stroke-color' id='refline12' value='#8989894b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]' value='Avg Value Index'>
+              <formatted-text>
+                <run>Avg Value Index</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_2' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_3' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_1' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_0' value='#fafafa00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' />
+              <size column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]' />
+              <text column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]' />
+              <lod column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]' />
+              <tooltip column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063780020234:qk]' />
+              <tooltip column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:market_share:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-table' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='2' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='average' id='refline10' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='11' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline11' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='12' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='average' id='refline12' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='13' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline13' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='14' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-table' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='3' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='4' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='average' id='refline4' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='5' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline5' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='6' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='median' id='refline6' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='7' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline7' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='8' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' enable-instant-analytics='true' formula='median' id='refline8' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]' z-order='9' />
+            <reference-line axis-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' enable-instant-analytics='true' formula='average' id='refline9' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' z-order='10' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[Brand: <[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'><![CDATA[Average Price: ₹<[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Revenue: ₹<[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'><![CDATA[Value Index: <[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Pricing Strategy: <[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Market Share: <[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063780020234:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Value Volume Leaders</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='10828.990118813635'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='253677129202.85355'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='43644.111690976162'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='186780217898.34262'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='1' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Premium Leaders</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='86303.769734787449'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='180090526767.89151'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='119118.89130694998'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='113193615463.38057'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='2' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Low Impact</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='6563.0243144325068'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='65027839324.132706'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='56113.857888397935'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='18868970524.020161'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='3' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Weak Premium</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='119546.66914980463'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='73289574380.874222'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='195651.51590364199'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Average Price:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='6708007248.864666'>
+                  <node-reference>
+                    <axis>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{B59A4BB3-796E-48DC-B543-53656B9E1711}' />
+    </worksheet>
+    <worksheet name='Price by Strategy'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column datatype='real' name='[Price(RS)]' role='measure' type='quantitative' />
+            <column-instance column='[Price(RS)]' derivation='Avg' name='[avg:Price(RS):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pricing_strategy]' derivation='None' name='[none:pricing_strategy:nk]' pivot='key' type='nominal' />
+            <column caption='Pricing Strategy' datatype='string' name='[pricing_strategy]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Price(RS):qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Price(RS):qk]</cols>
+      </table>
+      <simple-id uuid='{CFEA546A-EDB9-4282-A5DC-87CDE6AA8392}' />
+    </worksheet>
+    <worksheet name='Revenue by Brand'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Three brands control over 65% of total market revenue.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column caption='Top 3 Flag' datatype='string' name='[Calculation_3163063761051651]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF RANK(SUM([Total Revenue])) &lt;= 3 THEN &quot;Top 3&quot;&#13;&#10;ELSE &quot;Others&quot;&#13;&#10;END'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3163063761051651]' derivation='User' name='[usr:Calculation_3163063761051651:nk:1]' pivot='key' type='nominal'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[usr:Calculation_3163063761051651:nk:1]' member='&quot;Others&quot;' />
+              <groupfilter function='member' level='[usr:Calculation_3163063761051651:nk:1]' member='&quot;Top 3&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='533' />
+                <format attr='maxwidth' value='533' />
+                <format attr='minheight' value='380' />
+                <format attr='maxheight' value='380' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk]</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{363A6606-1F52-4174-9AF8-6951860DA097}' />
+    </worksheet>
+    <worksheet name='Revenue by Value Segment'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>% Distribution of Revenue by Value Segment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column caption='Value segment Map' datatype='string' name='[Value_segment_Map]' role='dimension' type='nominal' />
+            <column-instance column='[Value_segment_Map]' derivation='None' name='[none:Value_segment_Map:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[pcto:sum:Total Revenue:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]' />
+              <size column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' />
+              <wedge-size column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[pcto:sum:Total Revenue:qk]</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]</cols>
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>High Value products contribute 88.27% of total revenue.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[pcto:sum:Total Revenue:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]</field>
+                      <field>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[pcto:sum:Total Revenue:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;High Value&quot;</value>
+                    <value>0.88274603940812402</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{683664AD-B011-4A25-B183-0A9D07FF204B}' />
+    </worksheet>
+    <worksheet name='Strategic Recommendations'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column datatype='string' name='[Company]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Company]' derivation='None' name='[none:Company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pricing_strategy]' derivation='None' name='[none:pricing_strategy:nk]' pivot='key' type='nominal' />
+            <column caption='Pricing Strategy' datatype='string' name='[pricing_strategy]' role='dimension' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[value_segment]' derivation='Sum' name='[sum:value_segment:qk]' pivot='key' type='quantitative' />
+            <column caption='Value Segment' datatype='integer' name='[value_segment]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:value_segment:qk]' />
+              <text column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk] / [federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Company:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{CA5E8129-07E8-4E96-9DF7-5829900C11FE}' />
+    </worksheet>
+    <worksheet name='Strategy Page'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.1ktrvjj15nc0rb183w1cc0f3wo1c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ktrvjj15nc0rb183w1cc0f3wo1c'>
+            <column caption='Revenue by Strategy' datatype='real' name='[Calculation_3163063789060108]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Total Revenue])' />
+            </column>
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column caption='Value segment Map' datatype='string' name='[Value_segment_Map]' role='dimension' type='nominal' />
+            <column-instance column='[Value_segment_Map]' derivation='None' name='[none:Value_segment_Map:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3163063789060108]' derivation='User' name='[usr:Calculation_3163063789060108:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063789060108:qk]</rows>
+        <cols>[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]</cols>
+      </table>
+      <simple-id uuid='{127AD1AD-6040-4B94-828F-FC23195416E9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='98140' id='5' type-v2='layout-basic' w='97538' x='1231' y='930'>
+              <zone h='83023' id='3' name='Revenue by Brand' w='97538' x='1231' y='930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6396' id='9' param='horz' type-v2='layout-flow' w='97538' x='1231' y='92674'>
+                <zone forceUpdate='true' h='6396' id='10' type-v2='text' w='97538' x='1231' y='92674'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='91' h='8721' id='8' is-fixed='true' name='Revenue by Brand' pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]' type-v2='color' w='97538' x='1231' y='83953'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='25' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='91744' id='3' is-fixed='true' name='Revenue by Brand' w='84769' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='91' h='11511' id='8' name='Revenue by Brand' pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]' type-v2='color' w='12769' x='86000' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6396' id='10' type-v2='text' w='84769' x='1231' y='92674'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{52D4D48E-D610-4888-8E24-8A47103EB6F7}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='98140' id='5' type-v2='layout-basic' w='97538' x='1231' y='930'>
+              <zone h='78023' id='3' name='Positioning Map' w='77692' x='1231' y='930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='3721' id='10' param='horz' type-v2='layout-flow' w='97538' x='1231' y='95349'>
+                <zone forceUpdate='true' h='3721' id='11' type-v2='text' w='97538' x='1231' y='95349'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='78023' id='9' name='Positioning Map' pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]' type-v2='size' w='19846' x='78923' y='930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='16396' id='8' name='Positioning Map' pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' type-v2='color' w='97538' x='1231' y='78953'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='26' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='94419' id='3' is-fixed='true' name='Positioning Map' w='81076' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10814' id='8' name='Positioning Map' pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' type-v2='color' w='16462' x='82307' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18139' id='9' name='Positioning Map' pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]' type-v2='size' w='16462' x='82307' y='11744'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3721' id='11' type-v2='text' w='81076' x='1231' y='95349'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A9032493-AACB-4BB3-BFD7-CDA73B38AF1A}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='98140' id='5' type-v2='layout-basic' w='97538' x='1231' y='930'>
+              <zone h='85582' id='3' name='Market Revenue vs Product Value Gap' w='97538' x='1231' y='930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='3837' id='9' param='horz' type-v2='layout-flow' w='97538' x='1231' y='95233'>
+                <zone h='3837' id='11' type-v2='text' w='97538' x='1231' y='95233'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='8721' id='8' name='Market Revenue vs Product Value Gap' pane-specification-id='6' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk]' type-v2='color' w='97538' x='1231' y='86512'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='26' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='94303' id='3' is-fixed='true' name='Market Revenue vs Product Value Gap' w='72923' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8372' id='8' name='Market Revenue vs Product Value Gap' pane-specification-id='6' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk]' type-v2='color' w='24615' x='74154' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3837' id='11' type-v2='text' w='72923' x='1231' y='95233'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0401EA8D-C42B-40C0-9BE4-FCB00C1FD4C8}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 4'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='59302' id='3' name='Strategic Recommendations' w='49538' x='3385' y='930' />
+        <zone h='59302' id='4' name='Strategy Page' w='46154' x='53077' y='233' />
+        <zone h='39186' id='5' name='Price by Strategy' w='96769' x='3231' y='60698' />
+        <zone h='7326' id='16' type-v2='text' w='99538' x='308' y='92907'>
+          <formatted-text>
+            <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='19' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='59302' id='4' is-fixed='true' name='Strategy Page' w='46154' x='53385' y='116'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='59302' id='3' is-fixed='true' name='Strategic Recommendations' w='49538' x='3385' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39186' id='5' is-fixed='true' name='Price by Strategy' w='96769' x='3231' y='60698'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7326' id='16' type-v2='text' w='99538' x='308' y='92907'>
+                  <formatted-text>
+                    <run>Market Positioning Analysis | Prepared by Kedar Pawar | 2026</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{53ACC58A-44E7-4FA7-942F-87952941BA97}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Revenue by Brand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk:1]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{795659E8-4A4B-4D74-9F7B-15446BA8A861}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Revenue by Brand' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{478B99C5-BC6D-47CB-8941-2E65EBF5EFB0}' />
+    </window>
+    <window class='worksheet' name='Revenue by Value Segment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]' type='color' />
+            <card pane-specification-id='2' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:Total Revenue:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5FA024FD-E58C-4B78-80A1-EED80153E592}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Positioning Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{1A43F2CC-559C-4D70-B3FB-C8EAC1C3C1B6}' />
+    </window>
+    <window class='worksheet' name='Positioning Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' type='color' />
+            <card pane-specification-id='3' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[avg:Avg Value Index:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5010FCF9-B6EA-4022-9963-83F6637E1C36}' />
+    </window>
+    <window class='worksheet' name='Market Revenue vs Product Value Gap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[usr:Calculation_3163063761051651:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9563B9A9-3CBD-44FC-9F1D-C0AF3B54C54F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='Market Revenue vs Product Value Gap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{92909289-65C1-4203-9BA6-FF9C11C21540}' />
+    </window>
+    <window class='worksheet' name='Strategic Recommendations'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[sum:value_segment:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{89ADD698-4C6C-4AE7-A0DE-9304F40A0027}' />
+    </window>
+    <window class='dashboard' name='Dashboard 4'>
+      <viewpoints>
+        <viewpoint name='Price by Strategy' />
+        <viewpoint name='Strategic Recommendations' />
+        <viewpoint name='Strategy Page'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{E49976C3-1D3C-443B-B773-15B3F89F5170}' />
+    </window>
+    <window class='worksheet' name='Strategy Page'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:Value_segment_Map:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CFA73D13-1898-4932-A540-027DCACFB7D5}' />
+    </window>
+    <window class='worksheet' name='Price by Strategy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ktrvjj15nc0rb183w1cc0f3wo1c].[none:pricing_strategy:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{585A119F-5A4D-47D0-A550-76AECDED39B7}' />
+    </window>
+  </windows>
+</workbook>

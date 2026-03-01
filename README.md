@@ -37,6 +37,7 @@ This framework converts raw specifications into structured decision intelligence
 ---
 
 # 🏗️ Project Architecture
+```text
 Laptop-Price-Analytics/
 │
 ├── 01_Project_Governance/
@@ -94,7 +95,7 @@ Laptop-Price-Analytics/
 │   └── QA_Checklists/
 │
 └── 08_Archive/
-
+```
 Governance-first layered architecture ensures reproducibility and traceability.
 
 ---
@@ -191,15 +192,9 @@ This models demand sensitivity under controlled adjustments.
 - High Value Share: 31.6%
 - Simulated Revenue under 3% adjustment: ₹1.444T
 
-### Dashboard Preview
+### 📄 Dashboard Report
 
-> Add this image file in your repo:
-> `/assets/dashboard_preview.png`
-
-Then embed:
-
-```markdown
-![Dashboard Preview](assets/dashboard_preview.png)
+[Click here to view full PDF report](06_Visualization_Reporting/Dashboards/Pricing_Intelligence.pdf)
 
 ---
 ## Strategic Market Positioning Framework
@@ -334,4 +329,6 @@ Data Analytics & Pricing Strategy Enthusiast
 
 This project demonstrates structured analytical thinking, business interpretation, and model governance — not just dashboard creation.
 
+
 It reflects production-style pricing intelligence architecture adapted for portfolio demonstration.
+
