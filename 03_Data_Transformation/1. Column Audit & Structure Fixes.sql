@@ -117,7 +117,8 @@ set company = trim(company);
 							10.1,11.3,11.6,12.0,12.3,12.5,13.0,13.3,13.5, 13.9,
 							14.0,14.1,15.0,15.4,15.6,
 							16.0,16.1,
-							17.0,17.3,18.4
+			
+            17.0,17.3,18.4
 							);
 		-- > Conclusion: Screen size of laptop are according to standarised guidelines.
 		
@@ -155,7 +156,8 @@ set company = trim(company);
         where GPU not like "%Intel%" 
         and gPU not like "%AMD%"
         and gPU not like "%Apple%"
-        and gPU not like "%Nvidia%";
+        and gPU not like "%Nvidia%"
+        and gPU not like "%ARM%";
 	-- > Conclusion: GPU are consistent and accurate according to iso standard except for one record suggested it to add other unknown vendor
     
     -- OpSys
