@@ -194,7 +194,7 @@ This models demand sensitivity under controlled adjustments.
 
 ### 📄 Dashboard Report
 
-[Click here to view full PDF report](06_Visualization_Reporting/Dashboards/Pricing_Intelligence.pdf)
+[Click here to view full PDF report](06_Visualization_Reporting/Dashboards/Pricing_Intelligence.pdf) and
 [Live Tableau Dashboard](https://public.tableau.com/app/profile/kedar.pawar/viz/MarketPositioningAnalysisD4/StrategicRecommendations4?publish=yes)
 
 ---
