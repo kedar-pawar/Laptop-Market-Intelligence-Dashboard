@@ -1,44 +1,50 @@
 # 📊 Competitive Laptop Pricing Intelligence Model
 
-### Strategic Revenue, Value Efficiency & Pricing Simulation Framework  
-**Author:** Kedar Raju Pawar  
-**Year:** 2026  
+### Strategic Revenue Optimization, Value Efficiency & Pricing Simulation Framework
+
+**Author:** Kedar Raju Pawar
+**Year:** 2026
 
 ---
 
 ## 🚀 Project Overview
 
-This project develops a structured, data-driven pricing intelligence framework to analyze how laptop hardware specifications influence market pricing and revenue concentration.
+This project develops a **decision-grade pricing intelligence framework** to analyze how laptop hardware configurations influence pricing, value perception, and revenue concentration.
 
-The model integrates:
+It is designed to move beyond descriptive analytics into **actionable pricing strategy modeling**.
 
-- Structured data transformation
-- Statistical validation
-- Composite performance scoring
-- Value efficiency benchmarking
-- Revenue simulation
-- Pricing elasticity testing
-- Executive-level dashboard reporting
+The system integrates:
 
-The objective is not just analysis — but strategic pricing intelligence.
+* Structured data transformation (SQL)
+* Statistical validation (Python)
+* Regression-based price modeling
+* Clustering-driven segmentation
+* Composite performance scoring
+* Value efficiency benchmarking
+* Revenue simulation modeling
+* Pricing elasticity testing
+* Executive-level dashboard reporting
 
 ---
 
-## 🧠 Core Problem Addressed
+## 🧠 Business Problem
 
-- What truly drives laptop pricing?
-- Does higher price always mean higher performance value?
-- Which brands dominate revenue structurally?
-- Are some brands underpriced or overpriced relative to value?
-- How sensitive is revenue to controlled pricing adjustments?
+This model addresses core strategic questions:
 
-This framework converts raw specifications into structured decision intelligence.
+* What actually drives laptop pricing?
+* Does higher price reflect proportional performance?
+* Where are pricing inefficiencies in the market?
+* Which brands dominate revenue structurally?
+* How sensitive is revenue to controlled pricing adjustments?
+
+👉 The objective is to convert raw hardware specifications into **pricing intelligence and decision signals**.
 
 ---
 
 # 🏗️ Project Architecture
-```text
-Laptop-Price-Analytics/
+
+```text id="arch01"
+Laptop ANALYSIS/
 │
 ├── 01_Project_Governance/
 │   ├── README.md
@@ -48,41 +54,43 @@ Laptop-Price-Analytics/
 │   └── Change_Log.md
 │
 ├── 02_Data_Management/
-│   ├── Raw_Data/
+│   ├── 01_Raw_Data/
 │   │   └── laptop_data.csv
 │   │
-│   ├── Interim_Data/
-│   │   └── sql_cleaned_output.csv
+│   ├── 02_Interim_Data/
+│   │   └── Cleaned_Laptop_Data.csv
 │   │
-│   ├── Processed_Data/
-│   │   └── model_ready_dataset.csv
+│   ├── 03_Data_Dictionary/
+│   │   ├── data_dictionary_raw.xlsx
+│   │   ├── data_dictionary_raw.pdf
+│   │   ├── data_dictionary_Interim.pdf
+│   │   └── data_dictionary_Processed.pdf
 │   │
-│   └── Data_Dictionary/
-│       └── data_dictionary.xlsx
+│   └── 04_Processed_Data/
+│       └── analytics_dataset.csv
 │
 ├── 03_Data_Transformation/
-│   ├── 01_column_audit.sql
-│   ├── 02_resolution_cpu_gpu_parsing.sql
-│   ├── 03_memory_ram_parsing.sql
-│   ├── 04_price_validation.sql
-│   └── 05_duplicate_integrity_checks.sql
-│   └── 06_data_modelling.sql
+│   ├── Column Audit & Structure Fixes.sql
+│   ├── ScreenResolution + CPU GPU Parsing.sql
+│   ├── Price Validation & Standardization.sql
+│   ├── Memory and RAM Parsing.sql
+│   ├── Duplicate & Integrity Checks.sql
+│   ├── Data Modelling.sql
+│   └── Executive_Summary.md
 │
 ├── 04_Analytics_Development/
-│   ├── EDA/
-│   │   ├── statistical_modeling_eda.ipynb
-│   │   └── structural_business_eda.sql
-│   │
-│   ├── Statistical_Validation/
-│   ├── Regression_Modeling/
-│   ├── Clustering_Analysis/
-│   └── Scoring_Methodology/
+│   ├── 00_EDA/
+│   ├── 01_Statistical_Validation/
+│   ├── 02_Regression_Modeling/
+│   ├── 03_Clustering_Analysis/
+│   ├── 04_Scoring_Methodology/
+│   └── Laptop_Market_Analysis_Report.pdf
 │
 ├── 05_Business_Analysis/
+│   ├── Pricing_Strategy_Insights/
 │   ├── Revenue_Modeling/
-│   ├── Value_Index_Design/
 │   ├── Scenario_Simulation/
-│   └── Pricing_Strategy_Insights/
+│   └── VALUE_INDEX_DESIGN/
 │
 ├── 06_Visualization_Reporting/
 │   ├── Dashboards/
@@ -92,244 +100,278 @@ Laptop-Price-Analytics/
 ├── 07_Testing_Validation/
 │   ├── Data_Validation_Reports/
 │   ├── Model_Performance_Reports/
-│   └── QA_Checklists/
+│   └── qa_checklist.md
 │
 └── 08_Archive/
 ```
-Governance-first layered architecture ensures reproducibility and traceability.
+
+👉 Governance-first layered design ensures:
+
+* Reproducibility
+* Traceability
+* Audit-ready analytics pipeline
 
 ---
 
-# 🔍 Analytical Components
+# 🔍 Analytical Framework
 
 ## 1️⃣ Data Transformation (SQL)
 
-- Resolution parsing (width, height)
-- CPU tier classification
-- Storage standardization (TB → GB)
-- Duplicate detection
-- Outlier validation
-- Model-ready dataset creation
+* Resolution parsing (width, height)
+* CPU tier classification
+* GPU categorization
+* Storage normalization (TB → GB)
+* RAM extraction & structuring
+* Price validation & standardization
+* Duplicate detection & integrity flags
+* Model-ready dataset creation
 
 ---
 
 ## 2️⃣ Statistical Validation
 
-- Pearson & Spearman Correlation
-- ANOVA (CPU tier pricing significance)
-- Multiple Linear Regression (32 features, R² ≈ 0.53)
-- K-Means Clustering (Hardware vs Market segmentation)
+* Pearson & Spearman Correlation
+* ANOVA (CPU tier pricing significance)
+* Multiple Linear Regression (32 features, R² ≈ 0.53)
+* Feature importance analysis
+* Segment-level hypothesis testing
 
-Confirmed:
-- RAM & CPU tier are dominant pricing drivers
-- Brand premiums significantly influence pricing structure
+### ✅ Key Finding
 
----
-
-## 3️⃣ Composite Performance Score
-
-Weighted Scoring Model:
-
-| Feature | Weight |
-|----------|--------|
-| CPU Tier | 0.4 |
-| Clock Speed | 0.3 |
-| RAM | 0.2 |
-| SSD | 0.1 |
-
-MinMax normalization applied.
-
-Performance Score enables objective configuration comparison.
+RAM and CPU tier are dominant pricing drivers, while **brand premiums introduce systematic pricing distortion independent of performance**.
 
 ---
 
-## 4️⃣ Value Index Framework
+## 3️⃣ Regression Modeling
+
+* Baseline Linear Regression
+* Feature importance extraction
+* Model evaluation metrics
+* Stored artifacts:
+
+  * `linear_model.pkl`
+  * `feature_columns.pkl`
+  * `model_features.pkl`
+
+👉 Purpose: Quantify contribution of each feature to pricing.
+
+---
+
+## 4️⃣ Clustering Analysis
+
+* K-Means segmentation
+* Hardware-based clustering
+* Market positioning clustering
+
+Outputs:
+
+* `hardware_clustered_laptops.csv`
+* `Market_clustered_laptops.csv`
+
+👉 Enables identification of:
+
+* Premium clusters
+* Value clusters
+* Mispriced segments
+
+---
+
+## 5️⃣ Composite Performance Score
+
+Weighted scoring model:
+
+| Feature     | Weight |
+| ----------- | ------ |
+| CPU Tier    | 0.4    |
+| Clock Speed | 0.3    |
+| RAM         | 0.2    |
+| SSD         | 0.1    |
+
+* MinMax normalization applied
+* Scaler stored (`performance_scaler.pkl`)
+
+👉 Converts configurations into **comparable performance units**
+
+---
+
+## 6️⃣ Value Index Framework
 
 Value Index = Performance Score / Price
 
-Products segmented into:
-- High Value
-- Balanced
-- Low Value
-
 Used for:
-- Value ranking
-- Pricing gap detection
-- Strategic repositioning insights
+
+* Value segmentation
+* Mispricing detection
+* Competitive benchmarking
+
+Segments:
+
+* High Value
+* Balanced
+* Low Value
+
+Outputs:
+
+* `value_index_model_ready.csv`
+* `Value_Index_Output_V0.xlsx`
 
 ---
 
-## 5️⃣ Revenue Modeling
+## 7️⃣ Revenue Modeling
 
 Revenue = Estimated Units × Price
 
-Total Market Revenue Observed:
-**₹1.488 Trillion**
+* Total Market Revenue: **₹1.488 Trillion**
+* Brand-level revenue simulation:
 
-Brand revenue concentration analysis identifies structural leaders.
+  * `brand_revenue_simulation_V0.xlsx`
 
----
-
-## 6️⃣ Pricing Elasticity Simulation
-
-Dynamic Pricing Simulator:
-
-- ±3% pricing adjustment
-- Observed ~4.6% revenue sensitivity
-- Implied elasticity ≈ -1.5
-
-This models demand sensitivity under controlled adjustments.
+👉 Identifies **revenue concentration and structural dominance**
 
 ---
 
-# 📈 Executive Dashboard (Power BI)
+## 8️⃣ Pricing Elasticity Simulation
+
+* ±3% controlled pricing adjustment
+* Revenue sensitivity: ~4.6%
+* Elasticity ≈ -1.5
+
+### 🔥 Strategic Interpretation
+
+* Market shows **elastic demand behavior**
+* Mid-tier segment is highly price-sensitive
+* Premium segment exhibits **relative price insulation**
+
+---
+
+# 📈 Executive Dashboard
 
 ### Competitive Laptop Pricing Intelligence Dashboard
 
-**Key KPIs:**
-- Total Revenue: ₹1.488T
-- Average Price: ₹68,787
-- High Value Share: 31.6%
-- Simulated Revenue under 3% adjustment: ₹1.444T
+**KPIs:**
 
-### 📄 Dashboard Report
+* Total Revenue: ₹1.488T
+* Average Price: ₹68,787
+* High Value Share: 31.6%
+* Simulated Revenue: ₹1.444T
 
-[Click here to view full PDF report](06_Visualization_Reporting/Dashboards/Pricing_Intelligence.pdf) and
-[Live Tableau Dashboard](https://public.tableau.com/app/profile/kedar.pawar/viz/MarketPositioningAnalysisD4/StrategicRecommendations4?publish=yes)
+### Assets:
 
----
-## Strategic Market Positioning Framework
-
-### Brands classified into:
-
-- Premium Leaders
-
-- Value Volume Leaders
-
-- Weak Premium
-
-- Low Impact Players
-
-### Based on:
-
-- Average Price (X-axis)
-
-- Total Revenue (Y-axis)
-
-- Supports structured pricing strategy recommendations.
-
----
-## QA & Governance
-
-### Enterprise-style validation performed:
-
-- Cross-tool reconciliation (SQL → Python → Power BI)
-
-- KPI validation
-
-- Simulation stress testing
-
-- Risk documentation
-
-- Version control tracking
-
-#### Model Version: v3.0
-#### Status: Validation Complete
-
----
-## Assumptions & Constraints
-
-### Static dataset
-
-- Estimated units (not transactional sales)
-
-- Elasticity modeled assumption
-
-- No seasonality or external benchmarking data
+* `Pricing_Intelligence.pbix`
+* `Pricing_Intelligence.pdf`
+* Tableau Workbook (`.twb`)
+* Market Positioning Report (PDF)
 
 ---
 
-#### Transparency maintained in documentation.
+# 🎯 Strategic Insights
 
-## Tools Used
-
-### SQL (Data Parsing & Transformation)
-
-- Python (Numpy, Pandas, Matplot, seaborn, Scikit-Learn)
-
-- Jupyter Notebook
-
-- Power BI (Dashboard & Simulation Engine)
-
-- DAX (KPI & Scenario Logic)
-
-## Business Impact
-
-### This model enables:
-
-- Detection of underpriced high-value opportunities
-
-- Brand-level revenue concentration analysis
-
-- Structured premium pricing defense
-
-- Controlled scenario-based revenue testing
-
-- Data-backed pricing intelligence
-
-### Applicable in:
-
-- Consumer electronics pricing strategy
-
-- Retail analytics
-
-- Competitive positioning analysis
-
-- Revenue optimization modeling
-
-## Repository Structure
-data/
-notebooks/
-sql/
-dashboard/
-docs/
-
-### Each analytical layer is version-controlled and documented.
-
-## Limitations
-
-- Static dataset (no real-time feed)
-- Units sold are estimated
-- Elasticity is modeled assumption-based
-- No seasonality modeling
-- No external enrichment data
+* Mid-tier laptops exhibit **pricing inefficiency**, particularly in RAM upgrades where price increases exceed performance contribution
+* Premium brands maintain pricing power despite lower value index → **brand-driven demand insulation**
+* High-value configurations represent **underpriced opportunities**
+* Market revenue is concentrated at the premium level, but **growth potential lies in optimized mid-range pricing**
+* Clustering reveals **misaligned pricing segments across similar hardware tiers**
 
 ---
 
-## Author
+# 🧠 Strategic Recommendations
 
-Kedar Raju Pawar  
-Data Analytics & Pricing Strategy Enthusiast  
+If deployed in a real-world pricing environment:
 
----
-
-## Project Status
-
-✔ Data Transformation Complete  
-✔ Statistical Modeling Complete  
-✔ Clustering & Segmentation Complete  
-✔ Value Scoring Framework Complete  
-✔ Revenue Simulation Complete  
-✔ Elasticity Simulation Complete  
-✔ Dashboard Integrated  
-✔ QA Governance Documented  
+* Reduce mid-tier pricing (1–3%) to capture elastic demand
+* Maintain premium pricing where brand strength offsets value inefficiency
+* Increase price for high-value products currently underpriced
+* Use Value Index as a **continuous pricing benchmark system**
+* Apply elasticity modeling for controlled pricing experiments
 
 ---
 
-## Purpose
+# 🧪 QA & Validation
 
-This project demonstrates structured analytical thinking, business interpretation, and model governance — not just dashboard creation.
+* Cross-tool reconciliation (SQL → Python → Power BI)
+* KPI validation
+* Data integrity validation reports
+* Value index validation
+* Revenue simulation assumptions testing
+* QA checklist enforcement
 
+**Model Version:** v3.0
+**Status:** Validation Complete
 
-It reflects production-style pricing intelligence architecture adapted for portfolio demonstration.
+---
 
+# ⚠️ Assumptions & Constraints
+
+* Static dataset
+* Units sold are estimated
+* Elasticity is modeled
+* No seasonality modeling
+* No external enrichment data
+
+---
+
+# 🛠️ Tools Used
+
+* SQL (Data Transformation)
+* Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+* Jupyter Notebook
+* Power BI (Dashboard + Simulation Engine)
+* DAX (KPI logic)
+
+---
+
+# 💼 Business Impact
+
+This model enables:
+
+* Identification of pricing inefficiencies
+* Revenue concentration analysis
+* Strategic pricing optimization
+* Scenario-based revenue forecasting
+* Competitive positioning analysis
+
+Applicable in:
+
+* Consumer electronics pricing
+* Retail analytics
+* Revenue optimization
+* Market strategy
+
+---
+
+# 📌 Project Status
+
+✔ Data Transformation Complete
+
+✔ Statistical Modeling Complete
+
+✔ Regression Modeling Complete
+
+✔ Clustering & Segmentation Complete
+
+✔ Value Index Framework Complete
+
+✔ Revenue Simulation Complete
+
+✔ Elasticity Modeling Complete
+
+✔ Dashboard Integration Complete
+
+✔ QA & Governance Complete
+
+---
+
+# 🧾 Purpose
+
+This project demonstrates **pricing intelligence engineering, analytical depth, and strategic business thinking**.
+
+It is designed to reflect **production-level analytics capability**, not just dashboard creation.
+
+---
+
+## ✍️ Author
+
+Kedar Raju Pawar
+Data Analytics & Pricing Strategy Enthusiast
+## License
+This project is licensed under the MIT License.
